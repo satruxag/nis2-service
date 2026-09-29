@@ -14,10 +14,19 @@ Soggetto NIS classificato come importante. Regime di vigilanza ex post, tetto sa
 Termini volutamente NON usati in questo repo: "scadenza NIS2 del 31 ottobre 2026" come data unica (esiste un termine differenziato per coorte: usare "termine di 18 mesi dalla comunicazione di inserimento"), "certificazione NIS2" (la NIS2 non è uno schema di certificazione), "sanatoria" (non esiste nella norma).
 
 ## Fornitore rilevante
-Soggetto che fornisce prodotti o servizi a un soggetto NIS e che rischia di essere attratto nell'ambito NIS2 come fornitore critico, anche senza superare le soglie dimensionali. È il canale di ingresso più frequente per le PMI piccole.
+Fornitore di prodotti o servizi a un soggetto NIS che soddisfa almeno uno dei criteri di rilevanza della Determinazione ACN 127437/2026 (fornitura ICT riconducibile all'Allegato I punti 8 e 9, oppure non fungibilità della fornitura). È una **qualifica comunicata dall'ACN**, non un titolo che il fornitore possiede: il soggetto NIS lo elenca annualmente, e da quell'elenco l'ACN può individuare ulteriori soggetti obbligati. Distinto da:
+
+## Elencazione dei fornitori rilevanti
+L'adempimento con cui il soggetto NIS comunica all'ACN i propri fornitori rilevanti, nella finestra annuale 15 aprile – 31 maggio. È il meccanismo per cui il fornitore scopre di essere rilevante *dal cliente*, non da sé stesso. Da non confondere con l'individuazione del fornitore come soggetto NIS, che è un atto distinto e non automatico.
+
+## Individuazione (art. 3, c. 13)
+Atto con cui l'ACN, su proposta dell'Autorità di settore, include nell'ambito NIS un'organizzazione che non raggiunge da sola le soglie — anche una piccola o micro-impresa. Si manifesta come notifica al domicilio digitale. Termine da usare al posto di "diventa soggetto NIS per effetto dell'elenco", che è un'affermazione non vera.
 
 ## Check-up NIS2
 Il prodotto di questo repo: una valutazione a prezzo fisso e a scope chiuso che risponde alla domanda "siamo soggetti NIS, e cosa ci manca?". È un prodotto di *diagnosi*, non di remediation.
+
+## Prospettiva di costo
+La forchetta di spesa delle fasi successive al check-up, consegnata in `dopo-il-checkup.md` insieme al referto. Non è un preventivo e non è parte del Check-up NIS2: è l'antidoto alla *perdita di trattativa*, cioè al rifiuto di comprare la diagnosi per timore di ciò che la segue.
 
 ## Referto di check-up
 L'output del Check-up NIS2: un documento consegnabile con esito di applicabilità e, se applicabile, posizione misure per misura rispetto all'Allegato 1 o 2 della Determinazione ACN 379907/2025. Distinguere sempre due asserzioni separate: applicabilità dell'obbligo (questione giuridica) e adeguatezza tecnica (questione tecnica).

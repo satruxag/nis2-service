@@ -33,7 +33,9 @@ Buongiorno [NOME],
 
 nota breve su un effetto della NIS2 che riguarda i fornitori: i soggetti NIS hanno l'obbligo di inserire requisiti di sicurezza informatica nei contratti con i propri fornitori — per i contratti stipulati, rinnovati o prorogati dopo la scadenza delle loro misure. Non è retroattivo, ma si attiva **al primo rinnovo**.
 
-In pratica: se [AZIIENDA CLIENTE] è soggetto NIS, al prossimo rinnovo è probabile che vi arrivi una richiesta di garanzie di sicurezza — autenticazione multifattore, gestione delle vulnerabilità, continuità, notifica degli incidenti. Chi le ha già pronte risponde in una settimana; chi non le ha rischia di perdere il contratto per una questione amministrativa.
+In pratica: se [AZIENDA CLIENTE] è soggetto NIS, il suo punto di contatto ha l'obbligo di trasmettere all'ACN, dal 15 aprile al 31 maggio di ogni anno, l'elenco dei propri **fornitori rilevanti** — con denominazione, codice fiscale e codici CPV. La soglia è larga: basta che la fornitura tocchi infrastrutture digitali o servizi di gestione TIC, oppure che la sua interruzione impatti la capacità del cliente di erogare il servizio per cui è nel perimetro.
+
+Due conseguenze che vale la pena sapere prima che arrivino: l'ACN usa quell'elenco per individuare altri soggetti obbligati, e al prossimo rinnovo contrattuale è probabile che vi arrivi una richiesta di garanzie di sicurezza — MFA, gestione delle vulnerabilità, continuità, notifica degli incidenti. Chi le ha già pronte risponde in una settimana; chi non le ha rischia di perdere il contratto per una questione amministrativa.
 
 Offro un check-up a prezzo fisso (1.490 EUR) che dice cosa vi serve per rispondere a quella richiesta e cosa invece non vi serve. Referto scritto, utilizzabile come allegato al contratto.
 
@@ -55,6 +57,6 @@ Se vi interessa saperne di più, rispondo con i dettagli.
 - Non citare "10 milioni o il 2%" se il destinatario è un soggetto importante: per lui il massimo è 1,4%. Citare la cifra sbagliata è il modo più rapido di sembrare uno dei tanti.
 - Non dichiarare clienti o casi studio non autorizzati per iscritto.
 
-**Verifica prima dell'invio:** i fatti citati in queste email derivano da `fonti.md` (F2, F5, F7, F8). Se le email vengono riutilizzate dopo più di tre mesi, **ri-verificare F2 e F7**: ACN modifica le finestre annuali e i termini con le proprie Determinazioni.
+**Verifica prima dell'invio:** i fatti citati in queste email derivano da `fonti.md` (F2, F5, F7, F8, **F12** per l'elenco fornitori rilevanti e la finestra 15 aprile – 31 maggio). Se le email vengono riutilizzate dopo più di tre mesi, **ri-verificare F2, F7 e F12**: ACN modifica le finestre annuali e i termini con le proprie Determinazioni. **Il PDF della Determinazione 127437/2026 non era reperito direttamente il 29/09/2026** (link ACN 404): il contenuto di F12 poggia su una fonte di parte obbligata e tre fonti professionali concordanti. Prima di usare la cifra in una trattativa, scaricare e leggere il testo.
 
 **Conversione attesa:** bassa, e va accettata. Un'email a freddo su un tema di compliance porta risposte nell'ordine delle unità per centinaio. Il valore di questo materiale non è il tasso di risposta: è che quando qualcuno risponde, il resto del percorso è già scritto.

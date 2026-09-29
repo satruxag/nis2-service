@@ -147,3 +147,51 @@ Vedi `mercato-prezzi.md` per il dettaglio e i link. Sintesi: l'accertamento dell
 2. Dove una fonte secondaria affermava una data, è stata cercata la formulazione primaria corrispondente. **Due casi hanno prodotto una correzione**: la data del 31 ottobre (F2) e il massimo sanzionatorio di 10M/2% applicato genericamente (F5).
 3. Nessuna data in questo file deriva da una fonte secondaria non incrociata.
 4. Da ri-verificare prima di ogni uso: il testo vigente della Determina 379907/2025 e le FAQ ACN (ACN le aggiorna senza preavviso), e la validità dell'art. 38 (potenziali modifiche).
+
+---
+
+## F12 — Il canale di vendita più forte: l'obbligo dei soggetti NIS di ELENCARE i fornitori rilevanti [PRIMARIA]
+
+**Il fatto.** La **Determinazione ACN n. 127437 del 13 aprile 2026** (che sostituisce la n. 379887/2025, in applicazione dal 15 aprile 2026) introduce, tra le informazioni dell'aggiornamento annuale, l'**elencazione dei "fornitori rilevanti NIS"** (art. 18 della Determinazione). Per ciascun fornitore rilevante il soggetto NIS deve comunicare ad ACN: denominazione sociale, codice fiscale, Paese della sede legale, **codici CPV** delle forniture e **criterio di rilevanza** utilizzato.
+
+**Finestra temporale:** **15 aprile – 31 maggio di ogni anno**, sul Portale Servizi ACN (servizio "NIS/Aggiornamento annuale informazioni"). Le modifiche rilevanti intervenute nel parco fornitori vanno comunicate entro **14 giorni** dalla modifica ("Aggiornamento continuo informazioni").
+
+**I due criteri di rilevanza** (alternativi, non cumulativi — art. 1, c. 1, lett. ll)):
+1. la fornitura è riconducibile alle attività o ai servizi dell'**Allegato I, punti 8 e 9, del D.Lgs. 138/2024**: infrastrutture digitali (data center, IXP, DNS, CDN, cloud, servizi fiduciari, reti pubbliche di comunicazione elettronica) e **fornitori di servizi di gestione TIC** (MSP e MSSP);
+2. **l'interruzione o la compromissione della fornitura comporta un impatto significativo** sulla capacità del soggetto NIS di erogare le attività o i servizi per cui è nel perimetro — anche per effetto dell'indisponibilità di fornitori alternativi.
+
+**Perché ACN lo chiede.** Le informazioni raccolte alimentano l'attività di individuazione: soggetti che **non raggiungono da soli le soglie** possono essere individuati come soggetti importanti o essenziali ai sensi dell'**art. 3, comma 13, del D.Lgs. 138/2024** — "su proposta delle Autorità di settore" — con **notifica di individuazione al domicilio digitale**. La facoltà vale anche per **piccole e micro-imprese** che operano nei settori degli allegati I, II, III e IV (ACN, FAQ Ambito; ACN, "La normativa").
+
+**Come si cita (cautela).** Non è corretto affermare che "se sei nell'elenco dei fornitori rilevanti diventi automaticamente soggetto NIS": l'inserimento **non produce automaticamente** quell'effetto. L'affermazione verificabile è che **la comunicazione ad ACN della posizione di fornitore critico rende l'esposizione a individuazione ex art. 3, c. 13, concreta e documentata** — e che il fornitore scopre il problema quando ha già subito la richiesta, non prima.
+
+**Fonti (verificate 29 settembre 2026):**
+- ACN — "La normativa": <https://www.acn.gov.it/portale/nis/la-normativa> *(individuazione ulteriori soggetti critici ex art. 3, c. 13)*
+- ACN — FAQ Ambito: <https://www.acn.gov.it/portale/en/faq/nis/ambito> *(piccole e microimprese individuabili; notifica al domicilio digitale)*
+- Gruppo IREN — informativa ai fornitori che cita la Det. ACN 127437/2026 e la finestra 15/04–31/05: <https://portaleacquisti.gruppoiren.it/documenti/Informativa_NIS2.pdf> *(documento di un soggetto obbligato, che dimostra l'obbligo in essere)*
+- Studio Legale Calzoni — Det. 127437/2026, art. 18: <https://www.studiolegalecalzoni.com/fornitori-rilevanti-nis2-2026/>
+- Gruppo 2G — testo FAQ fornitori rilevanti e roadmap Det. 127434/2026: <https://www.gruppo2g.com/nis2-nuove-determine-acn-adempimenti-nuovi-soggetti-e-accesso-alla-piattaforma/>
+
+**Nota di stato della fonte.** Il PDF della Determinazione 127437/2026 **non è stato reperito direttamente** sul sito ACN in questa verifica (link diretto 404): il contenuto è ricostruito da una fonte di parte obbligata (IREN) e da tre fonti professionali concordanti, che citano articolo e numero. **Da riverificare scaricando il testo della Determinazione** alla prima occasione; va citato come "art. 18 Det. ACN 127437/2026" solo dopo averlo letto.
+
+---
+
+## F13 — Termini per i nuovi soggetti 2026 [PRIMARIA, via fonte secondaria concordante]
+
+**Determinazione ACN n. 127434/2026 (13 aprile 2026, applicabile dal 30 aprile 2026)** — roadmap per i soggetti inseriti nell'elenco NIS **per la prima volta nel 2026**:
+- designazione del **referente CSIRT**: entro **31 dicembre 2026**;
+- **obbligo di notifica degli incidenti significativi**: dal **1° gennaio 2027**;
+- **adozione delle misure di sicurezza di base** (allegati 1 e 2 della Det. ACN 379907/2025): entro **31 luglio 2027**.
+
+Conferma F2: il termine dipende dalla coorte di inserimento, non è una data unica.
+
+**Fonte:** Gruppo 2G, <https://www.gruppo2g.com/nis2-nuove-determine-acn-adempimenti-nuovi-soggetti-e-accesso-alla-piattaforma/> — concordante con ACN FAQ MSB.3 (F2) su "31 luglio 2027".
+
+---
+
+## F14 — Dimensione dell'elenco NIS: oltre 21.000 soggetti [PRIMARIA]
+
+L'**ottava riunione del Tavolo NIS** (9 aprile 2026) ha reso noto che l'elenco provvisorio dei soggetti NIS 2026 ha consistenza simile a quello 2025: **oltre 21.000 soggetti, di cui almeno 5.000 essenziali**. Nella stessa sede è stata introdotta la finestra 15 aprile – 31 maggio per l'elencazione dei fornitori rilevanti e le licenze ENISA e-learning per le P.A. dell'allegato III.
+
+**Fonte primaria:** ACN — "ACN convoca il Tavolo per l'attuazione della disciplina NIS": <https://www.acn.gov.it/portale/w/acn-convoca-il-tavolo-per-l-attuazione-della-disciplina-nis>
+
+**Uso commerciale:** è il numero che dimensiona il mercato **senza contattare nessuno**. 21.000 soggetti obbligati producono, ciascuno, un elenco di fornitori rilevanti — quella è la popolazione raggiungibile per via indiretta.
