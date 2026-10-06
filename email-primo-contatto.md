@@ -57,6 +57,8 @@ Se vi interessa saperne di più, rispondo con i dettagli.
 - Non citare "10 milioni o il 2%" se il destinatario è un soggetto importante: per lui il massimo è 1,4%. Citare la cifra sbagliata è il modo più rapido di sembrare uno dei tanti.
 - Non dichiarare clienti o casi studio non autorizzati per iscritto.
 
-**Verifica prima dell'invio:** i fatti citati in queste email derivano da `fonti.md` (F2, F5, F7, F8, **F12** per l'elenco fornitori rilevanti e la finestra 15 aprile – 31 maggio). Se le email vengono riutilizzate dopo più di tre mesi, **ri-verificare F2, F7 e F12**: ACN modifica le finestre annuali e i termini con le proprie Determinazioni. **Il PDF della Determinazione 127437/2026 non era reperito direttamente il 29/09/2026** (link ACN 404): il contenuto di F12 poggia su una fonte di parte obbligata e tre fonti professionali concordanti. Prima di usare la cifra in una trattativa, scaricare e leggere il testo.
+**Verifica prima dell'invio:** i fatti citati in queste email derivano da `fonti.md` (F2, F5, F7, F8, **F12** per l'elenco fornitori rilevanti e la finestra 15 aprile – 31 maggio). Se le email vengono riutilizzate dopo più di tre mesi, **ri-verificare F2, F7 e F12**: ACN modifica le finestre annuali e i termini con le proprie Determinazioni.
+
+**F12 è ora verificata sul testo primario (6/10/2026).** Il PDF ufficiale della Det. ACN 127437/2026 è reperito e letto: la finestra 15 aprile – 31 maggio è nell'**art. 16, c. 1**, i criteri di rilevanza nell'**art. 1, c. 1, lett. ll)**, i campi da comunicare nell'**art. 18**. Copia nel repo: `fonti/det-ACN-127437-2026.pdf` (SHA-256 `4a12bb3d…d8d5e1a`). L'email B si può inviare così com'è.
 
 **Conversione attesa:** bassa, e va accettata. Un'email a freddo su un tema di compliance porta risposte nell'ordine delle unità per centinaio. Il valore di questo materiale non è il tasso di risposta: è che quando qualcuno risponde, il resto del percorso è già scritto.

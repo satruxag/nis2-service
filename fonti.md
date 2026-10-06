@@ -171,7 +171,22 @@ Vedi `mercato-prezzi.md` per il dettaglio e i link. Sintesi: l'accertamento dell
 - Studio Legale Calzoni — Det. 127437/2026, art. 18: <https://www.studiolegalecalzoni.com/fornitori-rilevanti-nis2-2026/>
 - Gruppo 2G — testo FAQ fornitori rilevanti e roadmap Det. 127434/2026: <https://www.gruppo2g.com/nis2-nuove-determine-acn-adempimenti-nuovi-soggetti-e-accesso-alla-piattaforma/>
 
-**Nota di stato della fonte.** Il PDF della Determinazione 127437/2026 **non è stato reperito direttamente** sul sito ACN in questa verifica (link diretto 404): il contenuto è ricostruito da una fonte di parte obbligata (IREN) e da tre fonti professionali concordanti, che citano articolo e numero. **Da riverificare scaricando il testo della Determinazione** alla prima occasione; va citato come "art. 18 Det. ACN 127437/2026" solo dopo averlo letto.
+**Nota di stato della fonte — AGGIORNATA IL 6 OTTOBRE 2026: la lacuna è chiusa.** Il PDF ufficiale della Determinazione è stato reperito sul sito ACN e letto riga per riga. Link diretto (HTTP 200, `application/pdf`, 573.995 byte):
+
+<https://www.acn.gov.it/portale/documents/d/guest/detacn_piattaformanis_251218-v9_signed>
+
+Copia archiviata nel repo (così che il fatto non dipenda dalla permanenza del link): `fonti/det-ACN-127437-2026.pdf`, SHA-256 `4a12bb3d728ea559ad1627dc5dcd61fc91b23b75f66d674281a8bd9aae8d5e1a`.
+
+I passaggi qui sopra sono ora **citazioni verbatim del testo primario**, non ricostruzioni:
+
+- **art. 16, c. 1:** «Dal **15 aprile al 31 maggio** di ogni anno, gli utenti aggiornano, tramite il "Servizio NIS/Aggiornamento annuale informazioni", le informazioni per conto del soggetto per cui operano, assicurandone la correttezza.» — l'art. 16, c. 3, lett. g) elenca tra le voci da verificare «l'elenco dei fornitori rilevanti NIS, ai fini dell'articolo 3, comma 9, lettera f), del decreto NIS».
+- **art. 1, c. 1, lett. ll)** — definizione di «fornitori rilevanti NIS»: fornitore che soddisfa **almeno uno** dei due criteri; criterio 1) fornitura riconducibile alle attività/servizi di **Allegato I, punti 8 e 9** (fornitura ICT); criterio 2) «l'interruzione o la compromissione della fornitura comporta un impatto significativo sulla capacità del soggetto NIS, anche per effetto della **indisponibilità di fornitori alternativi**, di erogare le attività o i servizi per i quali rientra nell'ambito di applicazione del decreto NIS (**fornitura non fungibile**)».
+- **art. 18** («Elencazione dei fornitori rilevanti NIS»): il soggetto NIS indica **denominazione, codice fiscale, Paese della sede legale, codici CPV** (Reg. CE 2195/2002) e **il criterio di rilevanza utilizzato**.
+- **art. 33, c. 3:** la Determinazione «si applica a decorrere dal **15 aprile 2026**, fatte salve le disposizioni di cui al capo V la cui applicazione è differita al **1° maggio 2026**»; **art. 32** aggiorna e sostituisce la Det. n. 379887/2025.
+
+Il testo si chiude con la firma «IL DIRETTORE GENERALE — **Bruno Frattasi**».
+
+**Nota di cautela sul secondo PDF.** Il link al documento 127434/2026 indicato dalla fonte secondaria (`.../2026_112335_detacn_comptavolo_signed`) risponde 200 ma **non contiene la roadmap dei nuovi soggetti 2026**: è un atto di aggiornamento della **composizione del Tavolo NIS** (art. 1 sostituisce il Gen. D. Virgilio Romponi con il Gen. B. Luigi Vinciguerra; art. 2 ridetermina i componenti). Copia archiviata come `fonti/det-ACN-tavolo-composizione.pdf` (SHA-256 `9c5280697c8a30ec10568196cb36aad42db5532612efe9cd732078e1f791c597`). **Conseguenza: i contenuti di F13 restano su fonte secondaria concordante** (Gruppo 2G + ACN FAQ MSB.3, F2) e vanno citati come tali — il riferimento 127434/2026 va mantenuto come "l'atto che fissa i termini per i nuovi soggetti", non come "il PDF qui linkato".
 
 ---
 
