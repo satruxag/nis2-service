@@ -33,7 +33,7 @@ Buongiorno [NOME],
 
 nota breve su un effetto della NIS2 che riguarda i fornitori: i soggetti NIS hanno l'obbligo di inserire requisiti di sicurezza informatica nei contratti con i propri fornitori — per i contratti stipulati, rinnovati o prorogati dopo la scadenza delle loro misure. Non è retroattivo, ma si attiva **al primo rinnovo**.
 
-In pratica: se [AZIENDA CLIENTE] è soggetto NIS, il suo punto di contatto ha l'obbligo di trasmettere all'ACN, dal 15 aprile al 31 maggio di ogni anno, l'elenco dei propri **fornitori rilevanti** — con denominazione, codice fiscale e codici CPV. La soglia è larga: basta che la fornitura tocchi infrastrutture digitali o servizi di gestione TIC, oppure che la sua interruzione impatti la capacità del cliente di erogare il servizio per cui è nel perimetro.
+In pratica: se [AZIENDA CLIENTE] è soggetto NIS, il suo punto di contatto deve trasmettere all'ACN, dal 15 aprile al 31 maggio di ogni anno, l'elenco dei propri **fornitori rilevanti** — per ciascuno: denominazione, codice fiscale, Paese, **codici CPV** della fornitura e **il criterio di rilevanza**. La soglia è larga: basta che la fornitura tocchi infrastrutture digitali o servizi di gestione TIC, oppure che la sua interruzione impatti la capacità del cliente di erogare il servizio per cui è nel perimetro. Le FAQ ACN (FRN.4) hanno la tabella dei codici: un fornitore di servizi gestiti è 72500000-0 o 72510000-3, e il criterio può essere "ICT non fungibile" — entrambi insieme.
 
 Due conseguenze che vale la pena sapere prima che arrivino: l'ACN usa quell'elenco per individuare altri soggetti obbligati, e al prossimo rinnovo contrattuale è probabile che vi arrivi una richiesta di garanzie di sicurezza — MFA, gestione delle vulnerabilità, continuità, notifica degli incidenti. Chi le ha già pronte risponde in una settimana; chi non le ha rischia di perdere il contratto per una questione amministrativa.
 
@@ -58,6 +58,8 @@ Se vi interessa saperne di più, rispondo con i dettagli.
 - Non dichiarare clienti o casi studio non autorizzati per iscritto.
 
 **Verifica prima dell'invio:** i fatti citati in queste email derivano da `fonti.md` (F2, F5, F7, F8, **F12** per l'elenco fornitori rilevanti e la finestra 15 aprile – 31 maggio). Se le email vengono riutilizzate dopo più di tre mesi, **ri-verificare F2, F7 e F12**: ACN modifica le finestre annuali e i termini con le proprie Determinazioni.
+
+**F15 — aggiornamento del 13/10/2026.** L'ACN ha pubblicato le FAQ sui fornitori rilevanti (FRN.1–FRN.9), con la tabella CPV alla FRN.4: <https://www.acn.gov.it/portale/faq/nis/aggiornamento-delle-informazioni>. La Versione B è stata aggiornata per citarla. Il destinatario può controllare il fatto da solo, sulla pagina ACN, in tre minuti — è esattamente ciò che si vuole.
 
 **F12 è ora verificata sul testo primario (6/10/2026).** Il PDF ufficiale della Det. ACN 127437/2026 è reperito e letto: la finestra 15 aprile – 31 maggio è nell'**art. 16, c. 1**, i criteri di rilevanza nell'**art. 1, c. 1, lett. ll)**, i campi da comunicare nell'**art. 18**. Copia nel repo: `fonti/det-ACN-127437-2026.pdf` (SHA-256 `4a12bb3d…d8d5e1a`). L'email B si può inviare così com'è.
 

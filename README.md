@@ -15,6 +15,8 @@ Il prodotto è **una diagnosi**, non un adeguamento: dice se l'organizzazione è
 | `perdita-di-trattativa.md` | **Perché il materiale pronto non basta.** La domanda che blocca la firma, le trappole in ordine di frequenza, e l'ordine dei destinatari (il fornitore viene prima). |
 | `dopo-il-checkup.md` | **La risposta alla domanda che blocca la firma:** cosa costa l'adeguamento, e cosa potete fare a costo zero. Da consegnare dopo il referto, non al posto del referto. |
 | `mercato-prezzi.md` | Riferimenti di prezzo di mercato e lettura della saturazione del mercato. |
+| `contatti/lista-bersagli.md` | **La prima lista concreta di destinatari:** fornitori ICT reali che servono soggetti NIS riconoscibili, con il fatto specifico da citare a ciascuno. |
+| `contatti/README.md` | Il metodo per costruire le righe successive della lista. |
 | `CONTEXT.md` | Glossario del dominio. |
 | `AGENTS.md` | Istruzioni per agenti: regole, errori da non rifare, vincoli commerciali. |
 | `docs/adr/` | Decisioni di prodotto (perché solo diagnosi; perché questo prezzo). |
@@ -44,6 +46,8 @@ L'ordine dei destinatari è invertito rispetto alla prima stesura: **il fornitor
 
 ## Stato
 
-Materiale pronto per la vendita. Verificato il **29 settembre 2026**.
+Materiale pronto per la vendita, con **lista bersagli avviata**. Aggiornato il **13 ottobre 2026**.
+
+Chiuso il 13 ottobre: le FAQ ACN sui fornitori rilevanti (FRN.1–FRN.9, `fonti.md` F15) danno il **codice CPV concreto** da citare nell'email Versione B — il destinatario può verificare il fatto da solo in tre minuti.
 
 Manca, e richiede il titolare umano: dati di fatturazione nella scheda servizio (P.IVA, email, telefono), e l'invio delle email.

@@ -210,3 +210,24 @@ L'**ottava riunione del Tavolo NIS** (9 aprile 2026) ha reso noto che l'elenco p
 **Fonte primaria:** ACN — "ACN convoca il Tavolo per l'attuazione della disciplina NIS": <https://www.acn.gov.it/portale/w/acn-convoca-il-tavolo-per-l-attuazione-della-disciplina-nis>
 
 **Uso commerciale:** è il numero che dimensiona il mercato **senza contattare nessuno**. 21.000 soggetti obbligati producono, ciascuno, un elenco di fornitori rilevanti — quella è la popolazione raggiungibile per via indiretta.
+
+---
+
+## F15 — Le FAQ ACN sui fornitori rilevanti (FRN.1–FRN.9): il fatto verificabile da mettere nell'email [PRIMARIA]
+
+**Aggiornamento del 13 ottobre 2026.** L'ACN ha pubblicato una sezione FAQ dedicata ai fornitori rilevanti, che dà corpo operativo all'art. 18 della Det. 127437/2026. È il pezzo che mancava per rendere **concreto e citabile** il fatto che l'email Versione B usa come leva.
+
+**Fonte primaria:** ACN — "Domande frequenti NIS — Aggiornamento delle informazioni", sezione *Fornitori rilevanti* (FRN.1–FRN.9): <https://www.acn.gov.it/portale/faq/nis/aggiornamento-delle-informazioni> (verificata 13 ottobre 2026).
+
+I passaggi verbatim che contano commercialmente:
+
+- **FRN.4 — il fatto più utile.** ACN fornisce una **tabella di corrispondenza tra tipologia di fornitura e codice CPV**. Tra i codici esplicitamente elencati per la categoria «Servizi gestiti e servizi gestiti di sicurezza»: *Servizi informatici* [**72500000-0**], *Servizi di gestione connessi all'informatica* [**72510000-3**], *Servizi di manutenzione e assistenza sistemi* [**72250000-2**], *Servizi di consulenza e assistenza informatica* [**72600000-6**], *Servizi di audit e collaudo informatico* [**72800000-8**]. Per «Infrastrutture digitali»: *Servizi di elaborazione dati* [72300000-8], *Servizi di Internet* [72400000-4], *Servizi di data center* [72000000-5], *Servizi di telecomunicazione* [64200000-8].
+- **FRN.3 — cosa il cliente deve dichiarare su di te.** Cinque campi per fornitore: denominazione, codice fiscale, Paese della sede legale, **codici CPV**, **criterio di rilevanza** utilizzato. Cioè: il tuo cliente scrive nero su bianco *quanto è dipendente da te* e *perché*.
+- **FRN.2 — i criteri, e le tre casistiche.** I criteri possono valere «in alternativa tra loro o congiuntamente»: la fornitura può essere *ICT*, *non fungibile*, o *ICT non fungibile*. Un fornitore ICT non ridondato è, per definizione, nella terza casistica.
+- **FRN.4, test operativo (fornitura non fungibile).** La dipendenza non è solo digitale: ACN cita esplicitamente la **corrente elettrica** (CPV 65310000-9, 65300000-6) come esempio di fornitura non fungibile. Il test implicito: *«se il fornitore si ferma domani, quanto ci mettiamo a sostituirlo senza impatto?»*.
+- **FRN.6–FRN.9 — le risposte che alzano la posta.** Il fornitore **extra-UE** va elencato («la maggior parte di questi fornitori, anche se extra-UE, è soggetta alla Direttiva NIS»); i **fornitori infragruppo non sono automaticamente esclusi** (una capogruppo che gestisce il data center delle controllate è elencabile); per una filiera A→B va segnalato **il fornitore che eroga davvero** la fornitura, non il mero broker.
+- **FRN.9 / accordi di condivisione.** Sono oggetto di notifica all'ACN i contratti di fornitura di servizi di sicurezza — **NOC, MDR, SOC, CSOC, CERT, VA/PT, Red Teaming, Cyber Threat Intel**. Questi fornitori sono, per doppia via, dentro il perimetro informativo di ACN.
+
+**Conseguenza commerciale (perché aggiorna l'email).** La Versione B non deve più limitarsi a dire «il tuo cliente deve elencarti». Ora può dire **con quali codici, e cosa deve scrivere di te**: è un fatto puntuale, verificabile sul sito ACN, che il destinatario può controllare in tre minuti — e che, controllato, gli mostra che chi scrive ha letto la fonte, non il riassunto. È la differenza tra un'email di consulenza e un'email di vendita.
+
+**Nota di cautela.** Le FAQ FRN sono una fonte primaria *interpretativa*: ACN le aggiorna senza preavviso (la numerazione FRN.5–FRN.9 è recente). Le citazioni vanno datate; i codici CPV vanno riletti sulla pagina prima di ogni uso in un documento consegnabile.
