@@ -231,3 +231,29 @@ I passaggi verbatim che contano commercialmente:
 **Conseguenza commerciale (perché aggiorna l'email).** La Versione B non deve più limitarsi a dire «il tuo cliente deve elencarti». Ora può dire **con quali codici, e cosa deve scrivere di te**: è un fatto puntuale, verificabile sul sito ACN, che il destinatario può controllare in tre minuti — e che, controllato, gli mostra che chi scrive ha letto la fonte, non il riassunto. È la differenza tra un'email di consulenza e un'email di vendita.
 
 **Nota di cautela.** Le FAQ FRN sono una fonte primaria *interpretativa*: ACN le aggiorna senza preavviso (la numerazione FRN.5–FRN.9 è recente). Le citazioni vanno datate; i codici CPV vanno riletti sulla pagina prima di ogni uso in un documento consegnabile.
+
+## F16 — Le misure dell'Allegato 1 sono 37, i requisiti 87: conteggio sul testo primario [PRIMARIA]
+
+**Aggiornamento del 20 ottobre 2026.** La cifra «37 misure / 87 requisiti» per i soggetti importanti girava finora su **fonte secondaria** (rassegne specializzate). È ora **verificata per conteggio diretto** sul testo ufficiale dell'Allegato 1.
+
+**Fonte primaria:** ACN — *Allegato 1 — Misure di sicurezza di base per i soggetti importanti*, documento allegato alla Determinazione ACN 379907/2025: <https://www.acn.gov.it/portale/documents/d/guest/allegato-1-v2> (letto 20 ottobre 2026).
+
+Metodo: il documento è organizzato in funzione → categoria (es. `GV.OC`, `GV.RM`, `PR.AA`) → sottocategoria con codice requisito (`GV.OC-04`, `GV.RM-03`, …) → punti numerati. Contando i **codici requisito distinti** nelle intestazioni delle sottocategorie si ottengono **37**; contando i **punti numerati** nel corpo di ciascun requisito si ottengono **87**. Entrambi i valori confermano la cifra che circolava, che da ora può essere citata come primaria.
+
+Struttura del documento: 6 funzioni (`GOVERN`, `IDENTIFY`, `PROTECT`, `DETECT`, `RESPOND`, `RECOVER`), più un'**Appendice** con la *Tabella 1* (requisiti di cui al punto 2 della misura `GV.PO-01`, cioè i requisiti minimi obbligatori di politica per 16 ambiti) e la *Tabella 2* (requisiti di cui al punto 2 della misura `ID.RA-06`).
+
+**Conseguenza commerciale.** Il referto di check-up può citare «37 misure, 87 requisiti» con la sicurezza di una fonte primaria, e può citare anche la struttura a 16 ambiti della Tabella 1 — che è la griglia con cui si presenta il gap per ambito in una pagina sola.
+
+## F17 — I fornitori di software sanitario sono già qualificati ACN: perché non sono buoni bersagli [PRIMARIA]
+
+**Aggiornamento del 20 ottobre 2026.** Verifica dei primi bersagli contro il **Portale Cloud ACN** (catalogo ufficiale delle infrastrutture digitali e dei servizi cloud qualificati). Il risultato ribalta l'ipotesi della lista precedente.
+
+**Fonte primaria:** Portale Cloud ACN, scheda **SA-3784 — "WEBQUALITY", fornitore *Mys srl***: <https://www.acn.gov.it/portale/w/sa-3784> (letta 20 ottobre 2026). La scheda attesta: **Livello di qualificazione 2 (QC2)**, validità **30/07/2025 – 30/07/2028**, con certificazioni obbligatorie già possedute: **ISO 9001:2015, ISO 22301 (continuità), ISO/IEC 20000 (service management), CSA STAR Level 2, ISO 27001**.
+
+**Fonte primaria:** sito EL.CO. — la piattaforma *Fenix* è dichiarata «ACN — servizi SaaS qualificati di Livello 2 (QC2)» oltre che Dispositivo Medico CE classe IIA (MDR) e conforme GDPR: <https://www.elco.it/> (letto 20 ottobre 2026).
+
+**Il punto.** Per ottenere una qualificazione QC2 sul Portale Cloud ACN, un fornitore è già passato per un processo che richiede ISO 27001 e la conformità a misure di sicurezza documentate. Cioè: **possiede già gran parte dell'apparato che il Check-up NIS2 andrebbe a verificare**. Mandargli «non sapete se siete NIS2 / quali misure vi mancano» è un errore di credibilità immediato: chi legge sa che non è vero, e risponde solo se vuole.
+
+Questo **non** squalifica EL.CO. e MYS come *soggetti NIS* — un fornitore di software sanitario può ben essere a sua volta soggetto NIS (servizi gestiti TIC). Ma li squalifica come **destinatari dell'offerta di diagnosi**: hanno già il Mago che dice loro cosa manca, e non è lui.
+
+**Conseguenza operativa.** Il criterio di conferma della lista bersagli va ristretto. Non basta «il fornitore serve un soggetto NIS riconoscibile»: serve che il fornitore **non abbia già una qualificazione ACN o una certificazione equivalente recente**. Un MSP che serve un ospedale ma non è sul Portale Cloud ACN, e non espone ISO 27001, è il bersaglio giusto; un fornitore QC2 con ISO 27001 no.

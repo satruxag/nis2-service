@@ -1,57 +1,40 @@
-# Lista bersagli — fornitori ICT di soggetti NIS
+# Lista bersagli — a chi si scrive
 
-*Il pezzo che mancava: `contatti/README.md` descrive **come** costruire la lista; questo file ne è la **prima lista concreta**. Ogni riga ha un fornitore reale, il motivo per cui è un bersaglio, e il fatto specifico da citargli. **Nessuno è stato contattato** — l'invio richiede il titolare umano.*
+**Versione 20 ottobre 2026.** Questa lista è stata **riscritta** dopo la verifica sul Portale Cloud ACN (F17 in `fonti.md`). La versione del 13 ottobre conteneva quattro bersagli; due di essi (**EL.CO.** e **MYS**) sono risultati già qualificati QC2 con ISO 27001 — quindi **fuori bersaglio**, vedi sotto. La lista che segue è l'esito onesto di quella verifica, non l'elenco precedente.
 
-Ultima compilazione: **13 ottobre 2026**. I dati di contatto sono quelli pubblicati dalle aziende sui propri siti; vanno riletti prima dell'invio.
+## Il criterio di conferma (aggiornato)
 
----
+Un fornitore ICT è un bersaglio per il Check-up NIS2 **solo se tutte** queste sono vere:
 
-## Come si legge una riga
+1. **Serve un soggetto NIS riconoscibile** — un cliente il cui settore è nell'Allegato I o III del D.Lgs. 138/2024 (sanità, energia, trasporti, acqua, infrastrutture digitali, PA…), oppure un soggetto che ha ricevuto la comunicazione di inserimento nell'elenco ACN.
+2. **Non ha già una qualificazione ACN né ISO 27001 recente.** Se il fornitore è sul Portale Cloud ACN, o espone ISO 27001/22301, il check-up diagnostico gli è inutile: sa già cosa gli manca. Va escluso.
+3. **È di dimensione piccola o media.** Una grande impresa ha un ufficio compliance interno; una PMI no, ed è quella che compra una diagnosi a prezzo fisso.
+4. **La leva è il cliente NIS, non il fornitore stesso.** L'email funziona se può dire: «il tuo cliente [X] ti sta elencando all'ACN con questi codici».
 
-- **Chi**: ragione sociale e sito (fonte del dato).
-- **Perché è bersaglio**: la ragione verificabile per cui rientra nel profilo di `perdita-di-trattativa.md` — serve un soggetto NIS riconoscibile, ha dimensione da avere il problema, non ha un ufficio interno che se ne occupa.
-- **Il gancio**: il fatto puntuale da mettere nell'email. Non "la NIS2 ti riguarda", ma "il tuo cliente deve dichiarare **questo**, su di te".
-- **Criterio di rilevanza atteso**: a) fornitura ICT (Allegato I, punti 8-9) e/o b) non fungibilità. Serve a scegliere la formulazione.
+Il punto 2 è **nuovo** e ha eliminato due dei quattro bersagli precedenti. Va applicato a ogni candidato prima di scrivere: **una ricerca sul Portale Cloud ACN (`acn.gov.it/portale/catalogo-delle-infrastrutture-digitali-e-dei-servizi-cloud`) e una sul sito del fornitore per "ISO 27001"**. Dieci minuti che evitano l'email che brucia un contatto.
 
----
+## Esclusi dalla verifica del 20 ottobre (documentati, non cancellati)
 
-## Fascia 1 — Fornitori software/sistemi per la sanità
+**EL.CO. (Padova) — ESCLUSO.** Piattaforma *Fenix* dichiarata «ACN — servizi SaaS qualificati di Livello 2 (QC2)» sul sito aziendale (<https://www.elco.it/>). Dispositivo Medico CE classe IIA. Ha già l'apparato; non comprerebbe una diagnosi. *Fatto che resta vero e utilizzabile:* serve 350+ strutture sanitarie, che sono soggetti NIS del settore sanitario — quindi **EL.CO. è un fornitore rilevante**, ma è il *cliente* del check-up, non il *destinatario dell'email*. Escluso dall'invio, non dalla mappa.
 
-Perché questa fascia per prima: gli ospedali, le case di cura e le RSA sono **soggetti NIS** (allegato I, sanità), sono **pieni di fornitori ICT non fungibili**, e — fatto decisivo — il fornitore **sa già di essere critico**, perché il suo software *è* il sistema informativo del cliente. È il segmento in cui la frase "il tuo cliente deve elencarti" è più imbarazzante da sentire.
+**MYS / WebQuality (Rovigo) — ESCLUSO.** Qualificazione **QC2** sul Portale Cloud ACN, scheda **SA-3784**, valida 30/07/2025–30/07/2028, con ISO 9001, **ISO 22301**, **ISO/IEC 20000**, CSA STAR L2, **ISO 27001** (<https://www.acn.gov.it/portale/w/sa-3784>). Stesso ragionamento: ha già la griglia che gli mostreremmo. Escluso dall'invio.
 
-| # | Chi | Perché è bersaglio | Il gancio (fatto da citare) |
-|---|---|---|---|
-| 1 | **EL.CO. Srl** — software clinico per strutture sanitarie, >350 installazioni, Padova, dal 1984 · elco.it | Fornisce il sistema informativo a centinaia di strutture sanitarie pubbliche e private: molte sono soggetti NIS. Ha la dimensione per avere il problema e la concentrazione (350 clienti) per averlo su larga scala. | Il suo prodotto è dichiarato **ACN SaaS qualificato Livello 2 (QC2)**. È già nel perimetro ACN come fornitore qualificato — ma la qualificazione ACN del *servizio* non è l'adeguamento NIS2 dell'*azienda*. Il suo cliente lo elenca con CPV **72500000-0 / 72510000-3** e deve indicare il **criterio di rilevanza**. |
-| 2 | **MYS Srl** — suite WebQuality per aziende sanitarie, Rovigo, 11-50 dip., dal 2004 · mys.it · info@mys.it · tel. 0425.1560001 | Software gestionale per aziende sanitarie pubbliche e private. Dimensione (11-50) = nessun ufficio compliance interno. Dichiara ISO 27001 e CSA STAR — quindi **ha già capito il valore della sicurezza**, che è il terreno giusto per vendere una diagnosi, non un prodotto. | I suoi clienti sanitari devono elencarlo con i CPV dei **servizi gestiti** (72500000-0, 72510000-3, 72250000-2). Ha le certificazioni: il check-up qui non serve a "convincerlo che la sicurezza conta", ma a **mappare i gap rispetto agli Allegati ACN**, che sono un'altra cosa dall'ISO 27001. |
+## Bersagli che restano dopo il criterio aggiornato
 
-## Fascia 2 — MSP / system integrator con clientela multi-settore
+**MiPS Informatica S.p.A. (Genova + Firenze) — BERSAGLIO, con cautela.** Il punto forte: i suoi clienti documentati *sono* soggetti NIS e sono **nominati sulla sua stessa case history** (<https://mips-informatica.com/case-history>): **Gruppo Ansaldo Energia** (settore energia — Allegato I, settore altamente critico; gruppo >40 società, quindi *soggetto essenziale*), **Università di Genova** (PA/istruzione, Allegato III), **un primario istituto bancario nazionale** (settore bancario), e un *«ente pubblico che si affida a MiPS per la sicurezza informatica»*. Serve anche un broker marittimo (trasporti). Ha un servizio dedicato di «Consulenza GDPR» e «Sicurezza informatica»: è un MSP/fornitore rilevante per almeno **tre soggetti NIS con nome e cognome**.
 
-Perché: un MSP che serve **più soggetti NIS** è nello stesso elenco di più clienti. Non è una spesa di compliance: è **ciò che gli permette di rispondere in una settimana e non perdere il contratto**.
+  **Cautela — due problemi reali.** Primo: MiPS **organizza già eventi su NIS2** («Resilienza digitale senza confini», con un panel su *«Direttiva NIS2 e gestione delle vulnerabilità»*, <https://linkedin.com/company/mips-informatica-spa>). Non è un cliente ingenuo: è un **semi-concorrente** che sta presidiando lo stesso tema. Secondo: non risulta sul Portale Cloud ACN per un servizio di *managed services* (verificare prima dell'invio) — quindi il criterio 2 potrebbe comunque reggere, ma la leva dell'email va cambiata rispetto alla Versione B generica. A MiPS **non** si scrive «sai cosa fare al primo rinnovo»: lo sa. Gli si scrive da pari, con un fatto che gli serve operativamente.
 
-| # | Chi | Perché è bersaglio | Il gancio (fatto da citare) |
-|---|---|---|---|
-| 3 | **MiPS Informatica** — IT dal 1992, gestione infrastrutture IT + consulenza GDPR, Genova · mips-informatica.com · info@mips-informatica.com | System integrator storico con servizio esplicito di **gestione infrastrutture IT** (= servizi gestiti, criteri a) e b)) e **consulenza GDPR** — segno che vende già compliance e conosce la logica dei soggetti obbligati. Dimensione media = nessun ufficio NIS interno. | Chi lo ha in gestione infrastrutturale lo elenca con CPV **72500000-0** (servizi informatici) o **72510000-3** (servizi di gestione connessi all'informatica) — criteri a) e b) insieme, cioè "ICT non fungibile". Se gestisce anche il suo cliente, il criterio b) è quasi automatico. |
-| 4 | **3MSOLUTIONS** — consulenza IT, reti, cloud, sicurezza, VoIP; Meda (MB) e Milano · 3msolutions.it | Fa **reti aziendali, cloud, sicurezza e VoIP** — tutto roba che ricade nei CPV dei servizi gestiti e delle infrastrutture digitali. Ha un case study nel **settore sanitario** (Else Solutions): quindi serve almeno un settore NIS. Dimensione piccola: il titolare risponde direttamente. | Un MSP che fornisce **connettività, cloud e sicurezza** al cliente è elencabile sotto **tre** famiglie di CPV (72500000-0 servizi informatici, 72400000-4 servizi di Internet, 64200000-8 telecomunicazioni). Tre righe in un file ACN = tre motivi per cui il cliente deve sapere cosa fai sulla sicurezza. |
+**3MSOLUTIONS srl (Meda/Milano) — BERSAGLIO DEBOLE.** La case history (<https://www.3msolutions.it/case-history/>) nomina: **Else Solutions** (*«sfide del settore sanitario»* — il cliente più NIS-adiacente), *Liceo G. Parini* (istruzione), *Federazione Pugilistica Italiana*, e poi una serie di clienti **non NIS**: Oleodinamica Seguini, Lombarda Motori (auto), Limonta (tessile), Farmacia alla Porada, FiberTech, Akron (biotech). Cioè: **la maggior parte dei suoi clienti documentati non sono soggetti NIS.** L'unico aggancio solido è Else Solutions, che però 3M descrive genericamente come «sanitario» senza dimostrare che sia soggetto NIS. Serve una verifica su Else Solutions prima di scrivere. **Non è pronto per l'invio.**
 
-## Fascia 3 — Dove cercare le righe successive (procedura, non indovinello)
+## Cosa fare, concretamente, al prossimo giro
 
-Questa lista non va completata a intuito. Le righe successive si trovano così, in ordine di rendimento:
+La lista è passata da **quattro nomi con leva già scritta** a **un nome solido (MiPS, da rifinire) più uno debole (3MSOLUTIONS, da verificare)**. Non è un passo indietro: è la conseguenza di aver verificato. L'alternativa era spedire a EL.CO. e MYS un'email che li avrebbe fatti sorridere.
 
-1. **Portali acquisti dei soggetti NIS.** Utility, trasporti locali, aziende sanitarie pubbliche e grandi manifatture pubblicano **informative ai fornitori** sull'obbligo di elencazione. La più nota: Gruppo IREN, *Informativa_NIS2.pdf* (`fonti.md` F12). Quei documenti **elencano le categorie di fornitura** che il soggetto considera rilevanti: è una lista di bersagli già pronta.
-2. **Albi fornitori / elenchi aggiudicatari.** Chi compare come aggiudicatario di un soggetto NIS per forniture ICT (CPV 72xxxxxx, 642xxxxx) è un candidato con **prova documentale** del legame.
-3. **Il criterio di conferma**: il fornitore ha **un solo cliente grande e riconoscibile**? Allora la non fungibilità (criterio b) è quasi certa, e l'email Versione B funziona meglio. Il fornitore con 300 clienti piccoli ha un problema diverso (scala) e va trattato dopo.
+Il criterio 2 è anche il modo per **trovarne di nuovi in fretta**: sul Portale Cloud ACN, i *non* presenti sono la lista dei candidati. La mossa del prossimo giro è prendere 10 MSP che servono ospedali/utility nel Nord Italia e passare ciascuno per il filtro dei quattro punti.
 
-**Regola di conferma prima dell'invio** (dalla traccia in `contatti/README.md`): il fornitore serve un soggetto NIS **riconoscibile**? Se sì, si scrive. Se no, non si scrive — la versione B non ha aggancio.
+## Vincoli che non cambiano
 
----
-
-## Cosa NON fare con questa lista
-
-- **Non contattare i soggetti NIS direttamente per primi.** Hanno la scadenza addosso e hanno già cercato qualcuno: sono il canale secondario (`perdita-di-trattativa.md`). Il fornitore è il primo.
-- **Non scrivere a un fornitore di cui non si conosce un cliente NIS.** L'email Versione B si regge su un fatto specifico: senza quel fatto, diventa una newsletter.
-- **Non citare i 10 milioni.** A un fornitore ICT che non è ancora soggetto NIS quella cifra non si applica: si applica la logica dell'**individuazione ex art. 3, c. 13**, non la sanzione. Vedi `fonti.md` F5 e `CONTEXT.md` alla voce *Individuazione*.
-- **Non promettere che "sarà individuato come soggetto NIS".** L'inserimento nell'elenco fornitori **non produce automaticamente** quell'effetto (`fonti.md` F12). Il fatto vero è più forte: *il tuo cliente ti sta dichiarando all'Autorità come dipendenza critica*.
-
----
-
-*Fonti dei dati aziendali: siti aziendali (elco.it, mys.it, mips-informatica.com, 3msolutions.it) e profili LinkedIn pubblici, verificati il 13 ottobre 2026. Le ragioni di rilevanza rinviano a `fonti.md` F12 e F15. Nessun contatto è stato effettuato da questo repo.*
+- L'invio richiede il **titolare umano** e il suo account. Nessuna email parte da qui.
+- **Nessun cliente esistente va dichiarato** in questi materiali.
+- Prima di ogni invio: sostituire tutti i segnaposto e rileggere i fatti di `fonti.md` che l'email cita.
