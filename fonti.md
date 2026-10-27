@@ -257,3 +257,40 @@ Struttura del documento: 6 funzioni (`GOVERN`, `IDENTIFY`, `PROTECT`, `DETECT`, 
 Questo **non** squalifica EL.CO. e MYS come *soggetti NIS* — un fornitore di software sanitario può ben essere a sua volta soggetto NIS (servizi gestiti TIC). Ma li squalifica come **destinatari dell'offerta di diagnosi**: hanno già il Mago che dice loro cosa manca, e non è lui.
 
 **Conseguenza operativa.** Il criterio di conferma della lista bersagli va ristretto. Non basta «il fornitore serve un soggetto NIS riconoscibile»: serve che il fornitore **non abbia già una qualificazione ACN o una certificazione equivalente recente**. Un MSP che serve un ospedale ma non è sul Portale Cloud ACN, e non espone ISO 27001, è il bersaglio giusto; un fornitore QC2 con ISO 27001 no.
+
+---
+
+## F18 — La clausola NIS2 che i fornitori firmano davvero: un allegato contrattuale pubblico [PRIMARIA]
+
+**Aggiornamento del 27 ottobre 2026.** Il repo finora sosteneva la leva commerciale con la norma (art. 24 D.Lgs. 138/2024: i soggetti NIS devono inserire requisiti di sicurezza nei contratti con i fornitori). Ora esiste un documento primario che mostra **cosa quel requisito contiene, cifre alla mano**: un allegato contrattuale pubblicato da una **Azienda Sanitaria Locale** e allegato a un bando/contratto di fornitura.
+
+**Fonte primaria:** A.S.L. V.C.O. (Azienda Sanitaria Locale del Verbano-Cusio-Ossola) — *Allegato 01 — Obblighi di cybersecurity, supply chain e notifica degli incidenti* (Allegato C, "Clausole di gestione della compliance NIS2"), documento allegato al Bando/Contratto di fornitura, rev. 01: <https://www.aslvco.it/wp-content/uploads/2026/08/All.-C-Clausole-di-gestione-della-compliance-NIS2-2.pdf> (letto e scaricato il 27 ottobre 2026; il PDF è pubblico, 5 pagine).
+
+**Contenuto verificato — gli obblighi che ricadono sul Fornitore.** Il documento è un allegato contrattuale che diventa "parte integrante e sostanziale del Contratto di Fornitura", con il mancato rispetto equiparato a inadempimento contrattuale (art. 1453 c.c.). Impone al fornitore:
+
+| Obbligo | Termine o soglia | Riferimento interno al documento |
+|---|---|---|
+| **Notifica di Incidente ICT che impatta il Committente** | **entro 24 ore** dall'accertamento | §3.1 |
+| Rapporto intermedio | **entro 72 ore** | §3.2 |
+| Rapporto finale | **entro 1 mese** dall'evento | §3.2 |
+| **Patch critiche / zero-day** | **entro 7 giorni lavorativi** | §4.2 |
+| Patch alte | entro 15 giorni lavorativi | §4.2 |
+| Patch medie/basse | entro 60 giorni lavorativi | §4.2 |
+| **Piano di remediation** dopo un audit | entro 10 giorni lavorativi; azioni chiuse **entro 30 giorni** | §2.2 |
+| Conservazione **log di sicurezza** accessibili al Committente | almeno **12 mesi** | §OBBLIGHI lett. d |
+| **Informazione scritta** su modifiche sostanziali della catena di subfornitura | almeno **30 giorni prima** | §1.2 |
+| **Audit del Committente** sui sistemi del Fornitore | preavviso 5 giorni lavorativi, salvo emergenze; **audit annuali programmati obbligatori** | §2.1, §2.3 |
+| **SBOM** (Software Bill of Materials) aggiornato, per le forniture software | continuativo | §4.3 |
+| **SDLC sicuro** (threat modelling, code review, SAST/DAST) | per software sviluppato o personalizzato | §5.1 |
+| **Formazione** del personale assegnato | almeno **annuale** | §6.1 |
+| SGSI conforme **ISO/IEC 27001:2022**, controlli A.5.19–A.5.23 | "ove applicabile" | §OBBLIGHI lett. a |
+
+Il Fornitore è inoltre **responsabile diretto** dei propri subfornitori e deve inserire nei contratti a valle clausole "almeno equivalenti" (§1.1, §1.3). **Prefiltro obbligatorio:** compilare e sottoscrivere una *Checklist di Conformità ICT & Cybersecurity* (Allegato D), le cui dichiarazioni valgono come **dichiarazione sostitutiva di certificazione** (D.P.R. 445/2000) e sono parte integrante dell'offerta.
+
+**Perché questo fatto vale più di tutti gli altri per la vendita.** È la differenza tra «la norma prevede la sicurezza della catena di fornitura» (affermazione vera ma astratta, che il fornitore può rimandare) e **«ecco il modulo che dovrai firmare per continuare a fornire a questa ASL, con 13 adempimenti numerati e sette termini in giorni»**. Il fornitore non deve decidere se la NIS2 lo riguarda: la clausola è già nel contratto, e il primo termine (patch critiche a 7 giorni) è verificabile solo da chi ha un processo scritto — cioè da chi ha fatto, o ha fatto fare, la valutazione che il Check-up produce.
+
+**Cautela sull'uso.** Il documento è un atto di **una** stazione appaltante, non un modello nazionale obbligatorio: ACN non impone quel testo. Va citato come **esempio reale e pubblico di clausola in uso, non come testo di legge**. La formulazione da usare nell'email è: «questa ASL ha già allegato ai suoi contratti le clausole NIS2; ecco cosa contengono», non «tutti i vostri clienti vi chiederanno questo».
+
+**Conseguenza operativa sul prodotto.** La Checklist di Conformità ICT & Cybersecurity allegata a quel contratto è, in sostanza, **il questionario che il cliente del fornitore somministrerà**. Il referto del Check-up NIS2 diventa quindi direttamente riusabile come risposta documentata a quella checklist — e questo è un argomento di vendita verificabile, non una promessa: le voci della checklist attengono alle stesse aree delle misure di base (analisi dei rischi, controllo accessi, patch, continuità, incidenti, formazione, subfornitori).
+
+**Contesto di mercato rilevante (fonte secondaria, da non citare al cliente come normativa).** Lo stesso schema di richiesta al fornitore è descritto come prassi corrente per le PMI che forniscono la sanità: questionari, clausole contrattuali e richieste di evidenze (LORAN, 7 ottobre 2026, <https://www.loransrl.eu/nis2-pmi-fornitori-sanita/>). Segnale di saturazione da registrare: LORAN è **ISO/IEC 27001, presente nel registro CSA STAR e nel Marketplace cloud ACN**, e vende lo stesso tipo di percorso (analisi dei rischi, accessi, backup, formazione). Cioè: anche il segmento "fornitore PMI della sanità" ha già operatori attrezzati e qualificati.

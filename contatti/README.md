@@ -59,3 +59,34 @@ Approfondimento sulle soglie e sul "tetto dimensionale": <https://bulltech.it/bl
 ---
 
 *Metodo verificato il 29 settembre 2026. Nessun contatto presente in questa cartella: serve il titolare umano per l'invio.*
+
+
+---
+
+## Addendum del 27 ottobre 2026 — il segnale è cambiato di qualità, e va cercato altrove
+
+*(Questo addendum tiene conto del fatto F18 in `fonti.md`.)*
+
+Il metodo descritto sopra cercava il fornitore **a valle**: partiva dal portale acquisti del soggetto NIS e leggeva i suoi avvisi. Il 27 ottobre ho trovato un documento che rovescia il senso di quella ricerca: **A.S.L. V.C.O. ha pubblicato l'allegato contrattuale NIS2 completo, con la checklist di conformità che il fornitore deve sottoscrivere** (F18). Non è più un avviso generico: è il questionario con cui il fornitore verrà misurato.
+
+**La conseguenza pratica: le stazioni appaltanti pubblicano, insieme al bando, il questionario. Quindi le "clausole NIS2" e le "checklist di conformità ICT" sono reperibili come documenti di gara pubblici — e chi le ha già pubblicate ha, per definizione, dei fornitori che le stanno firmando.**
+
+### Il nuovo filtro, in tre passi
+
+1. **Cerca documenti di gara che contengano "NIS2" nel titolo dell'allegato** — non comunicati, non guide: **allegati contrattuali**. Stringhe fruttuose: `"clausole" NIS2 fornitore`, `"checklist di conformità" ICT cybersecurity NIS2`, `"obblighi di cybersecurity" supply chain fornitore allegato`.
+2. **Dall'allegato risali all'ente che lo ha pubblicato.** L'ente (ASL, azienda ospedaliera, utility, università, consorzio di comuni) è un soggetto NIS che ha già iniziato a imporre la clausola: ha fornitori ICT che devono rispondere, e li ha sotto contratto.
+3. **Il bersaglio non è l'ente: sono i suoi fornitori ICT.** L'ente non compra una diagnosi (ha già i suoi consulenti, probabili autori della clausola). Il fornitore PMI che deve compilare la checklist sì — e ha una scadenza contrattuale, non una scadenza normativa astratta.
+
+### La riga che va scritta nel registro dei candidati
+
+Per ogni ente trovato, registrare: **ente**, **URL dell'allegato**, **data di pubblicazione**, **i termini numerici che impone** (giorni per le patch, ore per la notifica), e **il fornitore ICT coinvolto** se desumibile dal bando. La clausola con i termini numerici è l'aggancio: è un fatto che il fornitore non può contestare, perché è nel *suo* contratto.
+
+### Perché questo metodo è migliore del precedente
+
+- **Non richiede di indovinare se il cliente è NIS**: chi pubblica una clausola NIS2 dichiara, con quel documento, di esserlo.
+- **Il fatto da citare non è la legge, è il contratto del destinatario.** È l'unico tipo di affermazione a cui un fornitore non può rispondere «lo so già».
+- **Il documento esiste già, è pubblico e datato**: zero congetture, zero rischi di affermare il falso.
+
+### Avvertenza onesta
+
+Il passo 3 è **un'ipotesi di lavoro, non un fatto verificato**: non ho ancora aperto il bando ASL V.C.O. per estrarre un fornitore nominato. Finché non lo faccio, la lista resta senza destinatari. Ma il metodo ha ora un punto di partenza concreto e una fonte primaria, invece di un criterio da applicare alla cieca a dieci MSP sperati.

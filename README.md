@@ -15,8 +15,9 @@ Il prodotto è **una diagnosi**, non un adeguamento: dice se l'organizzazione è
 | `perdita-di-trattativa.md` | **Perché il materiale pronto non basta.** La domanda che blocca la firma, le trappole in ordine di frequenza, e l'ordine dei destinatari (il fornitore viene prima). |
 | `dopo-il-checkup.md` | **La risposta alla domanda che blocca la firma:** cosa costa l'adeguamento, e cosa potete fare a costo zero. Da consegnare dopo il referto, non al posto del referto. |
 | `mercato-prezzi.md` | Riferimenti di prezzo di mercato e lettura della saturazione del mercato. |
-| `contatti/lista-bersagli.md` | **La lista dei destinatari, ristretta e verificata.** Criterio di conferma a quattro punti (serve un cliente NIS; **non** già qualificato ACN/ISO 27001; PMI; leva = cliente NIS). Documenta anche i due bersagli scartati dopo la verifica. |
-| `contatti/README.md` | Il metodo per costruire le righe successive della lista. |
+| `contatti/lista-bersagli.md` | **La lista dei destinatari, ristretta e verificata.** Criterio di conferma a quattro punti (serve un cliente NIS; **non** già qualificato ACN/ISO 27001; PMI; leva = cliente NIS). Documenta anche i bersagli scartati dopo la verifica. |
+| `contatti/tools/verifica-bersaglio.md` | **La scheda di verifica compilabile** per ogni candidato, con le schede reali di MiPS, 3MSOLUTIONS, EL.CO. e MYS. Rende il criterio ripetibile e la decisione ricostruibile. |
+| `contatti/README.md` | Il metodo per costruire le righe successive della lista. **Addendum del 27 ottobre**: il segnale qualificante è cambiato — si parte dagli allegati contrattuali NIS2 pubblicati dalle stazioni appaltanti (vedi F18). |
 | `CONTEXT.md` | Glossario del dominio. |
 | `AGENTS.md` | Istruzioni per agenti: regole, errori da non rifare, vincoli commerciali. |
 | `docs/adr/` | Decisioni di prodotto (perché solo diagnosi; perché questo prezzo). |
@@ -46,10 +47,18 @@ L'ordine dei destinatari è invertito rispetto alla prima stesura: **il fornitor
 
 ## Stato
 
-Materiale pronto per la vendita. Aggiornato il **20 ottobre 2026**.
+Materiale pronto per la vendita. Aggiornato il **27 ottobre 2026**.
 
 **Chiuso il 20 ottobre — due cose, entrambe dal testo primario.** (1) Le cifre «**37 misure, 87 requisiti**» dell'Allegato 1 non sono più su fonte secondaria: sono contate direttamente sul documento ACN ufficiale (`fonti.md` **F16**), quindi citabili con sicurezza nel referto. (2) La lista bersagli è stata **verificata contro il Portale Cloud ACN** e **ristretta**: EL.CO. e MYS, che erano i due candidati migliori, sono risultati **già qualificati QC2 con ISO 27001** (`fonti.md` **F17**) — non comprerebbero una diagnosi, perché l'hanno già subita in sede di qualifica. La lista passa così a **un bersaglio solido (MiPS Informatica) e uno debole (3MSOLUTIONS)**, con un criterio di conferma a quattro punti che esclude i già-qualificati (ADR 0005).
 
 Non è un passo indietro: è il passo che evita di spedire a un fornitore QC2 un'email che afferma il falso.
 
-Manca, e richiede il titolare umano: dati di fatturazione nella scheda servizio (P.IVA, email, telefono), e l'invio delle email.
+**Aggiornato il 27 ottobre — un fatto primario nuovo, e una lista che si svuota.** Due cose, entrambe conseguenza di aver verificato invece di supporre.
+
+**(1) Il fatto nuovo (F18).** Ho trovato, scaricato e letto il documento che mancava all'argomento di vendita: un **allegato contrattuale NIS2 reale, pubblico**, pubblicato da una Azienda Sanitaria Locale (A.S.L. V.C.O.) e destinato ai propri fornitori. Non un comunicato o una guida: l'allegato al contratto, con **13 obblighi numerati e sette termini espressi in giorni/ore** — notifica incidenti a 24 ore, patch critiche a 7 giorni lavorativi, piano di remediation a 10 giorni, log conservati 12 mesi, SBOM, audit annuali obbligatori. È la differenza tra «la norma chiede la sicurezza della catena di fornitura» (astratto) ed **«ecco il modulo che il tuo cliente ti farà firmare»** (verificabile). Il Check-up smette di essere un'idea e diventa la risposta documentata a una checklist che esiste già.
+
+**(2) La lista si svuota, e va detto.** Riaprendo le schede, **MiPS Informatica è passata da "OK con cautela" a NO**: ha **33 dipendenti** (sotto la soglia dei 50, quindi al più è un fornitore, non un soggetto obbligato) e — fatto decisivo — **vende essa stessa "Legal & Compliance Service: GDPR, NIS2, ISO 27001"** più un SOC/NOC H24. È un **concorrente attrezzato**, non un cliente. La sua case history, citata come fonte il 20 ottobre, oggi **non è più raggiungibile**. L'altro candidato, 3MSOLUTIONS, era già stato scartato. **Conseguenza onesta: oggi la lista dei destinatari è vuota.**
+
+Non è un fallimento del materiale: è il risultato di aver verificato due candidati che sembravano buoni. Il metodo in `contatti/README.md` ha però ora un punto di partenza migliore (F18): **partire dagli allegati contrattuali NIS2 pubblicati dalle stazioni appaltanti e risalire ai loro fornitori ICT**, invece di sperare di indovinare dieci MSP giusti.
+
+Manca, e richiede il titolare umano: dati di fatturazione nella scheda servizio (P.IVA, email, telefono), e l'invio delle email — che, dato lo stato della lista, oggi non ha ancora un destinatario verificato.

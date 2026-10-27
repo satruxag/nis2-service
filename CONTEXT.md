@@ -22,6 +22,9 @@ L'adempimento con cui il soggetto NIS comunica all'ACN i propri fornitori rileva
 ## Individuazione (art. 3, c. 13)
 Atto con cui l'ACN, su proposta dell'Autorità di settore, include nell'ambito NIS un'organizzazione che non raggiunge da sola le soglie — anche una piccola o micro-impresa. Si manifesta come notifica al domicilio digitale. Termine da usare al posto di "diventa soggetto NIS per effetto dell'elenco", che è un'affermazione non vera.
 
+## Clausola NIS2 contrattuale
+Obbligo di sicurezza che un soggetto NIS impone a un proprio fornitore **nel contratto**, non per atto dell'ACN. Nasce dall'adempimento della sicurezza della catena di approvvigionamento (art. 24, c. 3, D.Lgs. 138/2024; categoria GV.SC delle specifiche di base) e si materializza come allegato tecnico al contratto o al bando, con obblighi numerati e termini espressi in giorni o ore. Meccanismo **distinto** dall'elencazione dei fornitori rilevanti e dall'individuazione ex art. 3, c. 13: qui la qualifica non arriva dall'ACN ma dal rapporto contrattuale, e l'obbligo è verso il cliente, non verso l'Autorità. Un fornitore può essere tenuto alle clausole pur non essendo né soggetto NIS né fornitore rilevante.
+
 ## Check-up NIS2
 Il prodotto di questo repo: una valutazione a prezzo fisso e a scope chiuso che risponde alla domanda "siamo soggetti NIS, e cosa ci manca?". È un prodotto di *diagnosi*, non di remediation.
 
