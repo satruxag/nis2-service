@@ -87,3 +87,15 @@ Il segnale più forte e più economico è l'**avviso ai fornitori** pubblicato d
 ## Cosa dice questa verifica, senza addolcire
 
 Le schede compilate sono **due**, e **dopo la verifica del 27 ottobre nessuna delle due passa**: 3MSOLUTIONS non dimostra il punto 1, MiPS non regge i punti 3 e 4. La lista dei destinatari dell'email è, oggi, **vuota**. Non è un peggioramento del materiale: è il risultato di aver verificato due candidati che sembravano buoni e non lo erano. Il collo di bottiglia non è il criterio: è il numero di candidati esaminati. Il metodo in `contatti/README.md` indica dove trovarne in fretta (i portali acquisti con l'avviso NIS2); finché non si applica quel metodo a dieci candidati, la lista resta a un nome. Questo file è lo strumento per farlo in modo che il decimo candidato costi cinque minuti e non mezz'ora.
+
+## Controllo 5 (nuovo, 3 novembre 2026) — La P.IVA si legge sull'atto, non si deduce dalla ragione sociale
+
+**Caso reale che ha generato questo controllo.** ASL Biella ha affidato l'«Applicativo MMG e PLS» a una «SYSTEM TECHNOLOGY S.R.L.», P.IVA 02387320985. Quella P.IVA corrisponde a una ditta di **Botticino (BS) che vende CAD/CAM per la meccanica** — un'impresa **omonima**, non il fornitore sanitario. Una ricerca per ragione sociale avrebbe prodotto un'email, una sede e una dimensione **sbagliate**, e l'invio sarebbe arrivato all'azienda sbagliata.
+
+**Regola.** Per ogni bersaglio preso da un atto pubblico:
+1. Prendere la **P.IVA dall'atto**, non dal motore di ricerca (l'atto la scrive accanto alla ragione sociale: è quella la fonte).
+2. Verificare che il **settore** dell'impresa trovata combaci col **software nominato nell'atto**. Se l'atto dice «Applicativo MMG e PLS» e il sito dice «CAD/CAM, fresatura, tornitura», non è la stessa impresa: fermarsi.
+3. Prima di scrivere, aprire il sito e cercare **ISO 27001** (o «Information Security Policy»). Se c'è, il criterio 4 è violato: **fuori dalla lista**. Caso reale: SHORR KAN espone ISO 27001:2022 + 27017 + 27018 — esclusa.
+4. Se il settore non combacia e la P.IVA è confermata, il nome va marcato **«dato inattendibile»** e non usato: non è un bersaglio, è un'ambiguità da sciogliere sull'atto.
+
+**Perché vale.** Un invio sbagliato a un'impresa omonima brucia il nome e non produce nulla. Due dei nove candidati di questo giro sono caduti qui — cioè la verifica ha risparmiato due invii a vuoto. Il costo è 10 minuti per nome.

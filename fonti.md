@@ -294,3 +294,73 @@ Il Fornitore è inoltre **responsabile diretto** dei propri subfornitori e deve 
 **Conseguenza operativa sul prodotto.** La Checklist di Conformità ICT & Cybersecurity allegata a quel contratto è, in sostanza, **il questionario che il cliente del fornitore somministrerà**. Il referto del Check-up NIS2 diventa quindi direttamente riusabile come risposta documentata a quella checklist — e questo è un argomento di vendita verificabile, non una promessa: le voci della checklist attengono alle stesse aree delle misure di base (analisi dei rischi, controllo accessi, patch, continuità, incidenti, formazione, subfornitori).
 
 **Contesto di mercato rilevante (fonte secondaria, da non citare al cliente come normativa).** Lo stesso schema di richiesta al fornitore è descritto come prassi corrente per le PMI che forniscono la sanità: questionari, clausole contrattuali e richieste di evidenze (LORAN, 7 ottobre 2026, <https://www.loransrl.eu/nis2-pmi-fornitori-sanita/>). Segnale di saturazione da registrare: LORAN è **ISO/IEC 27001, presente nel registro CSA STAR e nel Marketplace cloud ACN**, e vende lo stesso tipo di percorso (analisi dei rischi, accessi, backup, formazione). Cioè: anche il segmento "fornitore PMI della sanità" ha già operatori attrezzati e qualificati.
+
+---
+
+## F19 — Il listino degli obblighi NIS2 che i fornitori ICT pubblici hanno già firmato: due determine, 29 aziende, P.IVA e CIG reali [PRIMARIA]
+
+**Perché è un fatto nuovo e diverso da F18.** F18 documenta *una* clausola NIS2 (ASL V.C.O.). F19 documenta **la stessa famiglia di obblighi diffusa**, con l'elenco nominativo dei fornitori che li hanno già accettati e i loro identificativi fiscali: non serve più *ipotizzare* quali PMI serviranno un soggetto NIS — si legge il provvedimento di affidamento.
+
+### F19.a — ASL Biella: un affidamento diretto unico per 16 fornitori di software sanitario
+
+**Fonte primaria:** A.S.L. di Biella, *Determinazione n. 642 in data 19/06/2026* — oggetto: «Affidamenti dei servizi di assistenza e manutenzione software applicativi in uso presso le strutture aziendali di ASL Biella – anni 2026/2027 – Fornitori vari – CIG vari – importo totale € 829.595,61 IVA inclusa». PDF pubblico, 14 pagine, letto integralmente il 3 novembre 2026.
+URL: <https://trasparenza.aslbi.piemonte.it/media/8520/download> (lo stesso atto è anche su <https://aslbi.piemonte.it/wp-content/uploads/2026/06/Determinazione_n_642_del_9062026.pdf>).
+
+**Procedura.** Manifestazione di interesse su piattaforma Sintel (ID **209745897**), apertura della documentazione il **02.12.2025**; per ciascun software è pervenuta **una sola** manifestazione, quindi accertata la condizione di **esclusività** ai sensi dell'art. 76, co. 2, lett. b), punto 3 del D.Lgs. 36/2023 (tutela dei diritti d'autore sul software) e proceduto ad **affidamento diretto**. I fornitori REKORDATA s.r.l. e ZUCCHETTI AXESS S.P.A. sono stati ricontattati dopo una prima scadenza; nuova scadenza **18.01.2026**.
+
+**Tabella dei fornitori e dei trattamenti (trascritta dall'atto: ragione sociale, P.IVA, software, importo soggetto a ribasso).** Questi dati identificano un'impresa reale e verificabile, non un profilo ipotetico:
+
+| Fornitore (ragione sociale + P.IVA) | Software / applicativo | Imponibile € | CIG |
+|---|---|---|---|
+| AXIOS INFORMATICA S.R.L. — 03166670244 | Cucina/Prandium – Mensaweb | 12.200 | 5981193 |
+| BIM ITALIA S.R.L. (diventa **GPI S.P.A.** — 01944260221 dal 01.01.2026) | Quany/SdO | 57.120 | 5981194 |
+| CITTA' STUDI S.P.A. — 01491490023 | Gestione applicativi Corso di Laurea in Scienze Infermieristiche | 51.000 | 5981195 |
+| DEDALUS ITALIA S.P.A. — 05994810488 | Punti Azzurri Multifunzione (PAM) | 40.800 | 5981196 |
+| GIADA PROGETTI S.R.L. — 02248420263 | Applicativo Concorsi | 20.400 | 5981197 |
+| **GPI S.P.A. — 01944260221** | DWH — database CdG | 102.000 | 5981198 |
+| LIZARD S.R.L. — 01867040220 | Apparati di teledidattica (Corso di Laurea) | 12.000 | 5981154 |
+| ME.S.I.S. S.R.L. — 01252940430 | TMM / Servizio Trasfusionale | 16.320 | 5981199 |
+| METEDA S.R.L. — 01713290441 | MetaClinic | 32.640; ribasso fino a 45.969,60 IVA incl. | 5981447 |
+| METROPOLIS S.R.L. — 10368880158 | Punti Gialli | 51.000 | 5981200 |
+| REKORDATA S.R.L. — 05185750014 | FileMaker | 12.240 | 5981201 |
+| SHORR KAN S.R.L. — 07831320010 | Canopo — Medicina del lavoro | 22.440 | 5981202 |
+| SINED S.R.L. — 01757941206 | Medware Nefrologia e dialisi | 70.000 | 5981788 |
+| SYSTEM TECHNOLOGY S.R.L. — 02387320985 | Applicativo MMG e PLS | 95.000 | 5981203 |
+| TINEXTA INFOCERT S.P.A. — 07945211006 | Firma remota/automatica ProxiSign | 52.000 | 5981204 |
+| ZUCCHETTI AXESS S.P.A. — 03537610960 | Timbratrici | 40.800 | 5981205 |
+
+*(I CIG riportati sono quelli letti nell'atto per le singole trattative; le righe dove il PDF spezzava il campo vanno ricontrollate sul documento originale prima di citarle a un cliente.)*
+
+**Il fatto che conta per la vendita.** In un **unico** provvedimento, una ASL soggetto NIS ha messo in capo a **16 fornitori** — di cui almeno **8 sono PMI italiane a conduzione tecnica, alcune con 2 o 10 dipendenti** (dati di registro, sotto) — l'obbligo di garantire l'assistenza su software sanitario critico per due anni. Nessuno di questi fornitori può esibire un processo perché nessun documento pubblico lo attesta.
+
+### F19.b — ASL V.C.O.: la terza procedura, il RIS-PACS
+
+Un secondo ente sanitario piemontese, ASL V.C.O., ha indetto nell'agosto 2026 **tre** procedure negoziate senza bando per l'assistenza applicativa e sistemica sui software aziendali (ID Sintel **221622294 / 221622589 / 221623573**), durata 36 mesi, aggiudicazione al **minor prezzo**, inviti a **Alfahealth S.p.A., Dedalus Italia S.p.A. e GPI S.p.A.** (CIG **BCAE3CE6D5** per GPI; base d'asta lotto GPI **1.668.464,00 EUR**). Lo schema di contratto (All. B, Det. n. 1042 del 07.08.2026) include, tra le attività a carico dell'appaltatore, la **«Gestione dei servizi di compliance NIS2»**.
+
+**Elemento ulteriore da verificare (non ancora confermato sul testo primario):** la **Det. n. 1006 del 03.08.2026** riguarderebbe i servizi per il sistema **RIS-PACS**, con importo presunto **2.368.800,00 EUR** e fornitore uscente di area **NEC/Synapse**. Se confermato, è un quarto contratto della stessa famiglia e un fornitore diverso (NEC) da mettere nella mappa. **Stato: da leggere sul PDF, non citare finché non verificato.**
+
+### F19.c — La conseguenza scomoda: il criterio «PMI 50–250» è FALSO per questo mercato
+
+I dati di registro (Camera di Commercio, via banche dati pubbliche, letti il 3 novembre 2026) sulle imprese nominate nell'atto di cui sopra **falsificano** la regola scritta nel criterio a 4 punti di `contatti/lista-bersagli.md` («È PMI. Tra 50 e 250 dipendenti»):
+
+| Impresa | P.IVA | Dipendenti | Fatturato | Fonte |
+|---|---|---|---|---|
+| SYSTEM TECHNOLOGY S.R.L. (Botticino, BS) | 02387320985 | **2** | € 707.720 (2024) | <https://www.aziende.it/system-technology-srl-BS>, <https://www.visurissima.it/aziende/SYSTEM-TECHNOLOGY-SRL_02387320985.html> |
+| SHORR KAN S.R.L. (Torino) | 07831320010 | **11–50** (22 su LinkedIn) | ~€ 1 M (ultimo bilancio pubblico) | <https://italy.globaldatabase.com/company/shorr-kan-s-r-l>, <https://linkedin.com/company/shorr-kan> |
+| METROPOLIS S.R.L. (Assago, MI) | 10368880158 | **10–15** | € 2,76 M (2025) | <https://www.ufficiocamerale.it/3703/metropolis-srl>, <https://www.fatturatoazienda.it/azienda/metropolis-srl-10368880158> |
+| METEDA S.R.L. (Roma/S. Benedetto del Tronto) — «un'impresa IQVIA» | 01713290441 | **>50 dichiarati sul sito** | n.d. | <https://meteda.it/en/chisiamo> |
+
+Le imprese che forniscono la sanità pubblica italiana — e che quindi stanno dentro la catena di fornitura di un soggetto NIS — sono in larghissima parte **micro e piccole imprese (2–20 dipendenti)**, non PMI da 50–250. Una software house da 2 dipendenti che manutiene l'applicativo MMG/PLS di una ASL **ha lo stesso obbligo contrattuale** di una da 200, e nessuna capacità interna di assolverlo. Il criterio 3 va quindi **sostituito**: la dimensione giusta non è «PMI 50–250», è **«il fornitore è troppo piccolo per avere compliance interna, ma abbastanza grande da avere un contratto in essere con un soggetto NIS che vale più del costo del check-up»**. Nota: METEDA è controllata da **IQVIA** — un gruppo multinazionale sanitario: il check-up diagnostico non è il suo prodotto, e va esclusa dall'invio (criterio 2/3).
+
+**Cautela sull'uso.** Le determinazioni citate sono atti di **due** stazioni appaltanti piemontesi, non un modello nazionale. Le citazioni di registro sono banche dati commerciali: la P.IVA è affidabile, il conteggio dipendenti è quello dichiarato e va riverificato sul sito del fornitore prima dell'invio. **Nessuna** delle imprese nominate è un cliente: è un elenco di destinatari *possibili*, ricavato da un atto che le riguarda.
+
+### F19.d — Rettifica metodologica: due candidati scartati per *verifica*, e la trappola dell'omonimia
+
+Il metodo della scheda di verifica ha prodotto, il 3 novembre 2026, due **esclusioni** che valgono più di due inclusioni:
+
+- **SHORR KAN S.R.L. (P.IVA 07831320010) — ESCLUSO.** Il sito aziendale espone le certificazioni **ISO/IEC 27001:2022, ISO 27017:2015, ISO 27018:2019 e ISO 9001:2015** come PDF scaricabili (rev. 2024), più una *Information Security Policy* pubblica: <https://www.shorr-kan.com/>. Ha già la griglia che il Check-up venderebbe. Criterio 4 soddisfatto → fuori.
+- **SYSTEM TECHNOLOGY S.R.L. (P.IVA 02387320985) — Omonimia, dato inaffidabile.** La ricerca di registro associa quella P.IVA a una società di **Botticino (BS), Via Giosuè Carducci 12/C**, che sul proprio sito (<https://systemt.it/>) si presenta come **distributore italiano del CAD/CAM Go2CAM per la meccanica** («fresatura, tornitura, erosione»), nata nel 1997 come CN Service; contatto unico `info@systemt.it`. Nulla in comune con l'«Applicativo MMG e PLS» affidato da ASL Biella: **sono due imprese distinte con ragione sociale quasi identica** (una Srl in provincia di Brescia e una in Piemonte/Lombardia). *La P.IVA va letta sull'atto, non dedotta dalla ragione sociale.* Questo è il primo errore di attribuzione che la scheda ha intercettato: una ragione sociale comune non identifica un'impresa.
+
+**Rettifica di F19.c.** La riga «SYSTEM TECHNOLOGY S.R.L. — 2 dipendenti, € 707.720» va **depennata come candidato**: descrive l'impresa sbagliata. Il criterio sostituito (micro-impresa < 20 addetti, contratto NIS provato dall'atto) **resta valido** — è confermato da METROPOLIS (10–15 dipendenti) e, in direzione opposta, falsificato da SHORR KAN (11–50 dipendenti *con* ISO 27001): la dimensione da sola non basta, la variabile discriminante è **avere o non avere un sistema di gestione della sicurezza certificato**.
+
+**Correzione di sede.** **AXIOS INFORMATICA S.R.L.** (P.IVA 03166670244, già confermata) ha sede a **Vicenza** — «n° Registro Imprese di Vicenza» sul sito <https://www.axios.it/>, prodotti *Prandium*/*Prandium Portale* per la ristorazione collettiva. Coerente col software di mensa affidato da ASL Biella: **identificazione confermata**, sito aziendale attivo e specializzato.
