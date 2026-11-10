@@ -62,3 +62,15 @@ Non è un passo indietro: è il passo che evita di spedire a un fornitore QC2 un
 Non è un fallimento del materiale: è il risultato di aver verificato due candidati che sembravano buoni. Il metodo in `contatti/README.md` ha però ora un punto di partenza migliore (F18): **partire dagli allegati contrattuali NIS2 pubblicati dalle stazioni appaltanti e risalire ai loro fornitori ICT**, invece di sperare di indovinare dieci MSP giusti.
 
 Manca, e richiede il titolare umano: dati di fatturazione nella scheda servizio (P.IVA, email, telefono), e l'invio delle email — che, dato lo stato della lista, oggi non ha ancora un destinatario verificato.
+
+**Aggiornato il 10 novembre — un bersaglio verificato, un errore di fonte corretto, l'email pronta.**
+
+Oggi il lavoro è stato di *verifica*, e ha prodotto due risultati opposti e una rettifica.
+
+**(1) Il primo bersaglio verificato esiste: ME.S.I.S. S.r.l.** (P.IVA 01252940430, Macerata). Sette dipendenti, € 997.115 di ricavi 2024, cliente **ASL Biella** per il software trasfusionale *Pellicano TMM* (€ 16.320/anno, letto sull'atto). Espone **solo ISO 9001**, non ISO 27001 (<https://www.mesis.it/>, letto il 10/11/2026). Supera tutti e quattro i criteri: cliente NIS provato, nessuna ISO 27001, micro-impresa, leva contrattuale. L'email è **compilata e pronta** in `contatti/email-invio/mesis-email-pronta.md` — manca solo la firma del titolare.
+
+**(2) Il candidato che sembrava migliore è uscito.** **GIADA PROGETTI** (la sola con *tre* committenti pubblici) espone **UNI EN ISO 27001** tra le certificazioni del proprio sito: ha già il SGSI con cui il Check-up aprirebbe. Esclusa. La lezione — il numero di contratti NIS non è la variabile discriminante: lo è **avere o non avere un SGSI certificato** — è ora la regola del criterio 2.
+
+**(3) Rettifica di fonte.** L'URL `trasparenza.aslbi.piemonte.it/media/8520/download`, citato il 3 novembre come *Det. ASL Biella 642*, è in realtà la **Det. 680 del 26/06/2026** (PNRR telemedicina, € 118.623,04, quattro fornitori). I dati della Det. 642 (16 fornitori, P.IVA, importi) sono stati riletti sul PDF corretto (16 pagine) e confermati; ora le due determine sono separate in `fonti.md` (F19.a / F19.e). L'errore non ha toccato i dati — solo l'attribuzione.
+
+**Il singolo passo che sblocca il primo incasso:** il titolare apre `contatti/email-invio/mesis-email-pronta.md`, inserisce la propria firma (P.IVA, telefono, email) e invia a `mesis@mesis.it`. Tutto il resto è verificato.

@@ -303,8 +303,10 @@ Il Fornitore è inoltre **responsabile diretto** dei propri subfornitori e deve 
 
 ### F19.a — ASL Biella: un affidamento diretto unico per 16 fornitori di software sanitario
 
-**Fonte primaria:** A.S.L. di Biella, *Determinazione n. 642 in data 19/06/2026* — oggetto: «Affidamenti dei servizi di assistenza e manutenzione software applicativi in uso presso le strutture aziendali di ASL Biella – anni 2026/2027 – Fornitori vari – CIG vari – importo totale € 829.595,61 IVA inclusa». PDF pubblico, 14 pagine, letto integralmente il 3 novembre 2026.
-URL: <https://trasparenza.aslbi.piemonte.it/media/8520/download> (lo stesso atto è anche su <https://aslbi.piemonte.it/wp-content/uploads/2026/06/Determinazione_n_642_del_9062026.pdf>).
+**Fonte primaria:** A.S.L. di Biella, *Determinazione n. 642 in data 19/06/2026* — oggetto: «Affidamenti dei servizi di assistenza e manutenzione software applicativi in uso presso le strutture aziendali di ASL Biella – anni 2026/2027 – Fornitori vari – CIG vari – importo totale € 829.595,61 IVA inclusa». PDF pubblico, **16 pagine**.
+URL corretto (verificato HTTP 200 il 10 novembre 2026, PDF di 16 pagine che riporta in testa «Determinazione n. 642 in data 19/06/2026» e la tabella dei 16 fornitori): <https://aslbi.piemonte.it/wp-content/uploads/2026/06/Determinazione_n_642_del_9062026.pdf>
+
+> **Rettifica dell'URL (10 novembre 2026).** L'URL <https://trasparenza.aslbi.piemonte.it/media/8520/download> **non è** la Det. 642: è la **Determinazione n. 680 in data 26/06/2026** (integrazione dell'infrastruttura regionale di telemedicina con gli applicativi aziendali nel progetto PNRR M6C1-1.2.3.2 «Servizi di telemedicina»), per **€ 118.623,04 IVA inclusa**, che riguarda **quattro** fornitori (DEDALUS Italia S.p.A. P.IVA 05994810488; ME.TE.DA. S.r.l. P.IVA 01713290441; SINED S.r.l. P.IVA 01757941206; FUJIFILM HEALTHCARE ITALIA S.p.A. P.IVA 11025740157) e **non** i sedici di questa sezione. La correzione non tocca i dati della tabella qui sotto, che sono stati riletti e confermati il 10 novembre 2026 sul PDF della Det. 642 (16 pagine, medesime P.IVA, medesimi corrispettivi annui): gli **unici** due campi divergenti dalla trascrizione precedente erano il conteggio pagine (14 → **16**) e l'URL. Le due determine sono ora documentate separatamente (F19.a per la 642; F19.e per la 680).
 
 **Procedura.** Manifestazione di interesse su piattaforma Sintel (ID **209745897**), apertura della documentazione il **02.12.2025**; per ciascun software è pervenuta **una sola** manifestazione, quindi accertata la condizione di **esclusività** ai sensi dell'art. 76, co. 2, lett. b), punto 3 del D.Lgs. 36/2023 (tutela dei diritti d'autore sul software) e proceduto ad **affidamento diretto**. I fornitori REKORDATA s.r.l. e ZUCCHETTI AXESS S.P.A. sono stati ricontattati dopo una prima scadenza; nuova scadenza **18.01.2026**.
 
@@ -338,6 +340,33 @@ URL: <https://trasparenza.aslbi.piemonte.it/media/8520/download> (lo stesso atto
 Un secondo ente sanitario piemontese, ASL V.C.O., ha indetto nell'agosto 2026 **tre** procedure negoziate senza bando per l'assistenza applicativa e sistemica sui software aziendali (ID Sintel **221622294 / 221622589 / 221623573**), durata 36 mesi, aggiudicazione al **minor prezzo**, inviti a **Alfahealth S.p.A., Dedalus Italia S.p.A. e GPI S.p.A.** (CIG **BCAE3CE6D5** per GPI; base d'asta lotto GPI **1.668.464,00 EUR**). Lo schema di contratto (All. B, Det. n. 1042 del 07.08.2026) include, tra le attività a carico dell'appaltatore, la **«Gestione dei servizi di compliance NIS2»**.
 
 **Elemento ulteriore da verificare (non ancora confermato sul testo primario):** la **Det. n. 1006 del 03.08.2026** riguarderebbe i servizi per il sistema **RIS-PACS**, con importo presunto **2.368.800,00 EUR** e fornitore uscente di area **NEC/Synapse**. Se confermato, è un quarto contratto della stessa famiglia e un fornitore diverso (NEC) da mettere nella mappa. **Stato: da leggere sul PDF, non citare finché non verificato.**
+
+### F19.e — ASL Biella, Det. n. 680 del 26/06/2026: la quarta determina della famiglia, quattro fornitori in PNRR telemedicina [PRIMARIA]
+
+**Fonte primaria:** A.S.L. di Biella, *Determinazione n. 680 in data 26/06/2026* — oggetto: «Affidamento di servizi di integrazione dell'infrastruttura regionale di telemedicina (IRT) con gli applicativi aziendali (CCA/OE/Repository/RIS-PACS)». PDF pubblico, 14 pagine, letto il 10 novembre 2026.
+URL: <https://trasparenza.aslbi.piemonte.it/media/8520/download>
+
+**Fatto.** È un atto **distinto** dalla Det. 642, con identico valore documentale: quattro fornitori, con **P.IVA lette sull'atto**, titolari degli applicativi in esercizio, invitati a preventivo *in deroga all'art. 49 D.Lgs. 36/2023* per **infungibilità tecnica** (tutela del diritto d'autore sul software):
+
+| Fornitore (ragione sociale + P.IVA sull'atto) | Applicativo | Importo (€, oltre IVA) | CIG |
+|---|---|---|---|
+| DEDALUS Italia S.p.A. — 05994810488 | CCA con HERO/C4C | 20.100 | BC11D37301 |
+| ME.TE.DA. S.r.l. — 01713290441 | CCA con Metaclinic per la Diabetologia | 5.500 | BC11C309F6 |
+| SINED S.r.l. — 01757941206 | CCA con Medware per la Dialisi | 10.000 | BC150A973A |
+| DEDALUS Italia S.p.A. — 05994810488 | OE con HERO/C4C | 24.375 | BC25CEFA1A |
+| DEDALUS Italia S.p.A. — 05994810488 | Repository con XValue | 20.475 | BC264B6522 |
+| FUJIFILM HEALTHCARE ITALIA S.p.A. — 11025740157 | RIS/PACS | 16.782 | BC30DA5DAD |
+
+**Totale** del provvedimento: € 97.232,00 oltre IVA → **€ 118.623,04 IVA inclusa** (finanziato dalla D.G.R. Piemonte 2-2132 del 30/12/2025, PNRR M6C1-1.2.3.2, CUP E64E25000040006). Importi tutti sotto i 40.000 € (affidamento diretto/trattativa diretta ex art. 50 c.1 lett. b, MEPA).
+
+**Perché conta per la vendita.** È lo **stesso fatto giuridico** della Det. 642 — un soggetto NIS che scarica su fornitori titolari l'obbligo di mantenere applicativi critici — ma su **quattro** imprese, di cui **due** (ME.TE.DA. e SINED) già note. Conferma che il canale è sistemico e non episodico: **due** determine di ASL Biella nello stesso mese su due famiglie di software diverse. **Correzione di attribuzione:** l'URL `media/8520` era stato attribuito per errore alla Det. 642 nella versione precedente di questa sezione; appartiene a questa.
+
+### F19.f — Giada Progetti è ESCLUSA: espone Uni En ISO 27001 [verifica, 10 novembre 2026]
+
+La candidata indicata come **primo bersaglio** nella lista precedente va **depennata**, con la stessa logica che ha escluso SHORR KAN:
+
+- **GIADA PROGETTI S.R.L.** (P.IVA 02248420263, Pieve di Soligo TV) — sul proprio sito, sezione *Certificazioni* (<https://www.giadaprogetti.it/it/certificazioni>, letto il 10 novembre 2026), elenca e rende scaricabili: **ISO/IEC 20000-1:2018, Uni En ISO 9001, Uni En ISO 27001, ISO IEC 27017 e 27018**. La presenza di **UNI EN ISO 27001** significa che ha già il sistema di gestione della sicurezza delle informazioni con cui il Check-up aprirebbe: criterio 4 soddisfatto → **fuori**.
+- **Conseguenza sul criterio.** La variabile discriminante non è la dimensione né il numero di clienti NIS (Giada serviva **tre** committenti pubblici: ASL Biella, ASL5 Spezzino, ATS Brianza) — è **avere o non avere un SGSI certificato**. Un fornitore con ISO 27001 ha già la griglia; il bersaglio è quello **senza**, anche se ha più contratti.
 
 ### F19.c — La conseguenza scomoda: il criterio «PMI 50–250» è FALSO per questo mercato
 

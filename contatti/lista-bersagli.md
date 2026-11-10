@@ -1,6 +1,6 @@
 # Lista bersagli — a chi si scrive
 
-**Versione 20 ottobre 2026.** Questa lista è stata **riscritta** dopo la verifica sul Portale Cloud ACN (F17 in `fonti.md`). La versione del 13 ottobre conteneva quattro bersagli; due di essi (**EL.CO.** e **MYS**) sono risultati già qualificati QC2 con ISO 27001 — quindi **fuori bersaglio**, vedi sotto. La lista che segue è l'esito onesto di quella verifica, non l'elenco precedente.
+**Versione 10 novembre 2026** (riscritta il 20 ottobre, aggiornata il 3 e il 10 novembre). Questa lista è stata **riscritta** dopo la verifica sul Portale Cloud ACN (F17 in `fonti.md`). La versione del 13 ottobre conteneva quattro bersagli; due di essi (**EL.CO.** e **MYS**) sono risultati già qualificati QC2 con ISO 27001 — quindi **fuori bersaglio**, vedi sotto. La lista che segue è l'esito onesto di quella verifica, non l'elenco precedente.
 
 ## Il criterio di conferma (aggiornato)
 
@@ -37,6 +37,14 @@ Il punto 2 è **nuovo** e ha eliminato due dei quattro bersagli precedenti. Va a
 
 Il resto del criterio (punti 1, 2, 4) regge: soggetto NIS riconoscibile, assenza di ISO 27001/qualifica ACN, leva del cliente NIS.
 
+## Versione 10 novembre 2026 — Giada Progetti esce, ME.S.I.S. entra come primo contatto
+
+**Cosa è cambiato.** La candidata indicata il 3 novembre come primo bersaglio (**GIADA PROGETTI**, la sola con *tre* committenti pubblici) è **esclusa**: il suo sito elenca **UNI EN ISO 27001** tra le certificazioni scaricabili (<https://www.giadaprogetti.it/it/certificazioni>, letto il 10 novembre 2026). Ha già il SGSI con cui il Check-up aprirebbe. Il fatto è documentato in `fonti.md` F19.f.
+
+**Chi prende il suo posto.** **ME.S.I.S. S.r.l.** (P.IVA 01252940430, Macerata): **7 dipendenti**, € 997.115 di fatturato 2024, cliente ASL Biella per il software trasfusionale *Pellicano TMM*; il sito `mesis.it` **non** menziona ISO 27001 e l'email di contatto è diretta (`mesis@mesis.it`). È il profilo esatto del criterio: micro-impresa tecnica, contratto critico con un soggetto NIS, nessuna funzione di compliance.
+
+**Correzione di fonti.** L'URL delle determine di ASL Biella è stato rettificato in `fonti.md` F19.a: `trasparenza.aslbi.piemonte.it/media/8520/download` è la **Det. 680**, non la **642**. I dati (16 fornitori, P.IVA, corrispettivi) sono confermati rileggendo la Det. 642 sul PDF corretto (16 pagine).
+
 ## Bersagli verificati — dalla fonte, non dall'ipotesi
 
 Tutti sotto hanno **contratto in essere con un soggetto NIS sanitario**, documentato da una determinazione pubblica. La colonna "esito" è la verifica preliminare (dimensione da banche dati di registro; da completare con la ricerca sul sito per ISO 27001 prima dell'invio).
@@ -44,9 +52,9 @@ Tutti sotto hanno **contratto in essere con un soggetto NIS sanitario**, documen
 | # | Impresa | P.IVA | Sede | Dimensione (fonte) | Cliente NIS documentato | Esito preliminare |
 |---|---|---|---|---|---|---|
 | 1 | **AXIOS INFORMATICA S.R.L.** | 03166670244 | **Vicenza** | micro (da completare) | ASL Biella (mensa/Prandium) | **verificato** — sito axios.it attivo, prodotti Prandium |
-| 2 | **GIADA PROGETTI S.R.L.** | 02248420263 | (da verificare) | (da verificare) | ASL Biella; ASL5 Spezzino (Det. 1039/2026); ATS Brianza | da completare |
+| 2 | **GIADA PROGETTI S.R.L.** | 02248420263 | Pieve di Soligo (TV) | 4 dipendenti; € 1,40 M (2025) | ASL Biella; ASL5 Spezzino (Det. 1039/2026); ATS Brianza | **ESCLUSO** — espone **UNI EN ISO 27001** (+20000, 9001, 27017/27018) sul sito (verificato 10/11/2026) |
 | 3 | **LIZARD S.R.L.** | 01867040220 | (da verificare) | (da verificare) | ASL Biella (teledidattica) | da completare |
-| 4 | **ME.S.I.S. S.R.L.** | 01252940430 | (da verificare) | (da verificare) | ASL Biella (TMM/Trasfusionale) | da completare |
+| 4 | **ME.S.I.S. S.R.L.** | 01252940430 | Macerata (MC) | **7 dipendenti**; € 997.115 (2024) | ASL Biella (TMM/Trasfusionale) | **candidato forte** — micro-impresa, sito mesis.it senza menzione ISO 27001; email diretta `mesis@mesis.it` |
 | 5 | **METROPOLIS S.R.L.** | 10368880158 | Assago (MI) | **10–15 dipendenti**; € 2,76 M | ASL Biella (Punti Gialli); ULSS 4 Veneto, AOU Federico II, IRCC Candiolo | candidato forte |
 | 6 | **REKORDATA S.R.L.** | 05185750014 | (da verificare) | (da verificare) | ASL Biella (FileMaker) | da completare |
 | 7 | **SHORR KAN S.R.L.** | 07831320010 | Torino | **11–50 dipendenti** (22 su LinkedIn) | ASL Biella (Canopo, medicina del lavoro) | **ESCLUSO** — espone ISO 27001:2022 + 27017 + 27018 + 9001 (verificato 03/11/2026) |
@@ -60,9 +68,9 @@ Tutti sotto hanno **contratto in essere con un soggetto NIS sanitario**, documen
 | 15 | **SINED S.R.L.** | 01757941206 | (da verificare) | (da verificare) | ASL Biella (Medware nefrologia) | da completare |
 | 16 | **ALFAHEALTH S.P.A.** | — | Roma | n.d. | ASL V.C.O. | da verificare |
 
-**Ordine di lavorazione consigliato:** #1 (AXIOS INFORMATICA — identificazione confermata), #5 (METROPOLIS — 10–15 dipendenti, cliente ASL Biella), #2 (GIADA PROGETTI — **tre** clienti NIS pubblici: ASL Biella, ASL5 Spezzino, ATS Brianza; da controllare se ha ISO 27001), #4 e #6 (ME.S.I.S., REKORDATA — da completare).
+**Ordine di lavorazione (rivisto 10 novembre 2026):** #4 **ME.S.I.S.** (micro-impresa, 7 dipendenti, cliente ASL Biella, nessuna ISO 27001 esposta → primo contatto), #5 **METROPOLIS** (10–15 dipendenti, più clienti pubblici), #1 **AXIOS INFORMATICA** (identificazione confermata, da completare sito/ISO). #2 GIADA PROGETTI è **uscita**: ha UNI EN ISO 27001.
 
-**Scartati nella verifica del 3 novembre:** #7 SHORR KAN (ISO 27001 esposta) e #8 SYSTEM TECHNOLOGY (omonimia: P.IVA non attribuibile). Come da metodo: verificare costa un nome, non verificare costa l'invio.
+**Scartati nella verifica del 3 novembre:** #7 SHORR KAN (ISO 27001 esposta) e #8 SYSTEM TECHNOLOGY (omonimia: P.IVA non attribuibile). **Aggiornamento del 10 novembre:** si aggiunge **#2 GIADA PROGETTI**, esclusa perché il suo sito espone **UNI EN ISO 27001**. Lezione: il numero di contratti NIS non è la variabile — lo è **avere o non avere un SGSI certificato**. Come da metodo: verificare costa un nome, non verificare costa l'invio.
 
 **Cosa manca prima dell'invio.** Per i candidati "da completare" servono, per ciascuno: sito aziendale (sede, persone, email diretta non `info@`), ricerca `ISO 27001` sul sito, ricerca sul Portale Cloud ACN. Sono 10 minuti a testa, ripetibili con la scheda `contatti/tools/verifica-bersaglio.md`. **Un nome senza quei tre controlli non entra in lista.**
 
