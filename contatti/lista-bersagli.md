@@ -1,6 +1,6 @@
 # Lista bersagli — a chi si scrive
 
-**Versione 10 novembre 2026** (riscritta il 20 ottobre, aggiornata il 3 e il 10 novembre). Questa lista è stata **riscritta** dopo la verifica sul Portale Cloud ACN (F17 in `fonti.md`). La versione del 13 ottobre conteneva quattro bersagli; due di essi (**EL.CO.** e **MYS**) sono risultati già qualificati QC2 con ISO 27001 — quindi **fuori bersaglio**, vedi sotto. La lista che segue è l'esito onesto di quella verifica, non l'elenco precedente.
+**Versione 17 novembre 2026** (riscritta il 20 ottobre, aggiornata il 3, il 10 e il 17 novembre). Questa lista è stata **riscritta** dopo la verifica sul Portale Cloud ACN (F17 in `fonti.md`). La versione del 13 ottobre conteneva quattro bersagli; due di essi (**EL.CO.** e **MYS**) sono risultati già qualificati QC2 con ISO 27001 — quindi **fuori bersaglio**, vedi sotto. La lista che segue è l'esito onesto di quella verifica, non l'elenco precedente.
 
 ## Il criterio di conferma (aggiornato)
 
@@ -51,24 +51,28 @@ Tutti sotto hanno **contratto in essere con un soggetto NIS sanitario**, documen
 
 | # | Impresa | P.IVA | Sede | Dimensione (fonte) | Cliente NIS documentato | Esito preliminare |
 |---|---|---|---|---|---|---|
-| 1 | **AXIOS INFORMATICA S.R.L.** | 03166670244 | **Vicenza** | micro (da completare) | ASL Biella (mensa/Prandium) | **verificato** — sito axios.it attivo, prodotti Prandium |
+| 1 | **AXIOS INFORMATICA S.R.L.** | 03166670244 | **Vicenza** | micro | ASL Biella (mensa/Prandium) | **ESCLUSO** — espone **ISO 27001** (cert. 55819) + **ISO 22301** + **qualifica ACN QC1/QC2** (verificato 17/11/2026) |
 | 2 | **GIADA PROGETTI S.R.L.** | 02248420263 | Pieve di Soligo (TV) | 4 dipendenti; € 1,40 M (2025) | ASL Biella; ASL5 Spezzino (Det. 1039/2026); ATS Brianza | **ESCLUSO** — espone **UNI EN ISO 27001** (+20000, 9001, 27017/27018) sul sito (verificato 10/11/2026) |
-| 3 | **LIZARD S.R.L.** | 01867040220 | (da verificare) | (da verificare) | ASL Biella (teledidattica) | da completare |
+| 3 | **LIZARD S.R.L.** | 01867040220 | Trento | 20+ anni, € 4,2 M (2025) | ASL Biella (teledidattica) | **ESCLUSO** — vende cyber security/cloud/managed service: **concorrente** (lizardnet.it, verificato 17/11/2026) |
 | 4 | **ME.S.I.S. S.R.L.** | 01252940430 | Macerata (MC) | **7 dipendenti**; € 997.115 (2024) | ASL Biella (TMM/Trasfusionale) | **candidato forte** — micro-impresa, sito mesis.it senza menzione ISO 27001; email diretta `mesis@mesis.it` |
-| 5 | **METROPOLIS S.R.L.** | 10368880158 | Assago (MI) | **10–15 dipendenti**; € 2,76 M | ASL Biella (Punti Gialli); ULSS 4 Veneto, AOU Federico II, IRCC Candiolo | candidato forte |
+| 5 | **METROPOLIS S.R.L.** | 10368880158 | Assago (MI) | **10–15 dipendenti**; € 2,76 M | ASL Biella (Punti Gialli); ULSS 4 Veneto, AOU Federico II, IRCC Candiolo | **DA SCIOGLIERE** — puntogiallo.it espone solo ISO 9001, ma un catalogo Anci 2023 la dice «ISO 9001, 27001, 22301»: contraddizione da risolvere prima di scrivere (17/11/2026) |
 | 6 | **REKORDATA S.R.L.** | 05185750014 | (da verificare) | (da verificare) | ASL Biella (FileMaker) | da completare |
 | 7 | **SHORR KAN S.R.L.** | 07831320010 | Torino | **11–50 dipendenti** (22 su LinkedIn) | ASL Biella (Canopo, medicina del lavoro) | **ESCLUSO** — espone ISO 27001:2022 + 27017 + 27018 + 9001 (verificato 03/11/2026) |
 | 8 | **SYSTEM TECHNOLOGY S.R.L.** | 02387320985 | Botticino (BS) | 2 dipendenti | ASL Biella (MMG/PLS) | **DATO INATTENDIBILE** — la P.IVA corrisponde a una ditta CAD/CAM omonima, non al fornitore MMG/PLS: da risolvere sull'atto |
 | 9 | **BIM ITALIA / GPI S.P.A.** | 01944260221 | Trento | grande gruppo | ASL Biella, ASL V.C.O. | **ESCLUSO** — il check-up non è per un gruppo da migliaia di dipendenti |
 | 10 | **DEDALUS ITALIA S.P.A.** | 05994810488 | Firenze/Milano | gruppo | ASL Biella, ASL V.C.O. | **ESCLUSO** — grande fornitore sanitario strutturato |
-| 11 | **METEDA S.R.L.** (impresa IQVIA) | 01713290441 | Roma / S.B. del Tronto | >50 dichiarati; gruppo IQVIA | ASL Biella (MetaClinic) | **ESCLUSO** — controllata da multinazionale |
+| 11 | **METEDA S.R.L.** (impresa IQVIA) | 01713290441 | Roma / S.B. del Tronto | >50; gruppo IQVIA | ASL Biella (MetaClinic) | **ESCLUSO** — espone **ISO/IEC 27001:2022** + 27017/27018 (meteda.it/qualita) e appartiene al gruppo IQVIA (17/11/2026) |
 | 12 | **TINEXTA INFOCERT S.P.A.** | 07945211006 | Roma | grande | ASL Biella (firma remota) | **ESCLUSO** — gruppo quotato |
 | 13 | **ZUCCHETTI AXESS S.P.A.** | 03537610960 | Brescia | grande | ASL Biella (timbratrici) | **ESCLUSO** — gruppo Zucchetti |
 | 14 | **CITTÀ STUDI S.P.A.** | 01491490023 | Biella | società partecipata pubblica | ASL Biella, ATS | **ESCLUSO** — partecipata regionale, non è una PMI privata |
-| 15 | **SINED S.R.L.** | 01757941206 | (da verificare) | (da verificare) | ASL Biella (Medware nefrologia) | da completare |
+| 15 | **SINED S.R.L.** | 01757941206 | Bologna | **11–50 dipendenti**; gruppo THÉRADIAL | ASL Biella (Medware dialisi, € 70.000) + Det. 680 (€ 10.000) | **BERSAGLIO 2 — CONFERMATO 4/4** — solo ISO 9001 + 13485, nessuna 27001, nessuna ACN (verificato 17/11/2026). Email pronta |
 | 16 | **ALFAHEALTH S.P.A.** | — | Roma | n.d. | ASL V.C.O. | da verificare |
+| 17 | **FUJIFILM HEALTHCARE ITALIA S.p.A.** | 11025740157 | Segrate (MI) | >200 dip.; € 113 M | ASL Biella (RIS/PACS) | **ESCLUSO** — **ISO 27001:2022** cert. n. 40672 + 27017/27018; fuori anche per dimensione (17/11/2026) |
+| 18 | **ME.TE.DA. S.R.L.** | — (F19.e la cita come 01713290441, che è di METEDA: da rileggere sull'atto) | n.d. | n.d. | ASL Biella (MetaClinic) | **PENDENTE** — P.IVA da correggere sull'atto; non verificabile per ora |
 
-**Ordine di lavorazione (rivisto 10 novembre 2026):** #4 **ME.S.I.S.** (micro-impresa, 7 dipendenti, cliente ASL Biella, nessuna ISO 27001 esposta → primo contatto), #5 **METROPOLIS** (10–15 dipendenti, più clienti pubblici), #1 **AXIOS INFORMATICA** (identificazione confermata, da completare sito/ISO). #2 GIADA PROGETTI è **uscita**: ha UNI EN ISO 27001.
+**Ordine di lavorazione (rivisto 17 novembre 2026):** #4 **ME.S.I.S.** (7 dipendenti, un contratto ASL Biella, nessuna ISO 27001 → **primo contatto**, email pronta), #15 **SINED S.R.L.** (**due** contratti ASL Biella, 11–50 dipendenti, solo ISO 9001+13485 → **secondo contatto**, email pronta), #5 **METROPOLIS** (solo se la contraddizione sulla ISO 27001 si scioglie).
+
+**Usciti nella verifica del 17 novembre** (F20, `fonti.md`): #1 AXIOS (ISO 27001 + 22301 + ACN QC1/QC2), #3 LIZARD (concorrente: vende cyber security), #11 METEDA (ISO 27001 + gruppo IQVIA), più #17 FUJIFILM (ISO 27001). **#2 GIADA PROGETTI** era già uscita il 10 novembre.
 
 **Scartati nella verifica del 3 novembre:** #7 SHORR KAN (ISO 27001 esposta) e #8 SYSTEM TECHNOLOGY (omonimia: P.IVA non attribuibile). **Aggiornamento del 10 novembre:** si aggiunge **#2 GIADA PROGETTI**, esclusa perché il suo sito espone **UNI EN ISO 27001**. Lezione: il numero di contratti NIS non è la variabile — lo è **avere o non avere un SGSI certificato**. Come da metodo: verificare costa un nome, non verificare costa l'invio.
 

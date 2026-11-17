@@ -393,3 +393,57 @@ Il metodo della scheda di verifica ha prodotto, il 3 novembre 2026, due **esclus
 **Rettifica di F19.c.** La riga «SYSTEM TECHNOLOGY S.R.L. — 2 dipendenti, € 707.720» va **depennata come candidato**: descrive l'impresa sbagliata. Il criterio sostituito (micro-impresa < 20 addetti, contratto NIS provato dall'atto) **resta valido** — è confermato da METROPOLIS (10–15 dipendenti) e, in direzione opposta, falsificato da SHORR KAN (11–50 dipendenti *con* ISO 27001): la dimensione da sola non basta, la variabile discriminante è **avere o non avere un sistema di gestione della sicurezza certificato**.
 
 **Correzione di sede.** **AXIOS INFORMATICA S.R.L.** (P.IVA 03166670244, già confermata) ha sede a **Vicenza** — «n° Registro Imprese di Vicenza» sul sito <https://www.axios.it/>, prodotti *Prandium*/*Prandium Portale* per la ristorazione collettiva. Coerente col software di mensa affidato da ASL Biella: **identificazione confermata**, sito aziendale attivo e specializzato.
+
+---
+
+## F20 — Screening sistematico dei fornitori sanitari: la ISO 27001 è la linea di taglio del mercato [PRIMARIA / verifica, 17 novembre 2026]
+
+**Da dove nasce.** F19 aveva prodotto una mappa di 20+ fornitori sanitari nominati in atti di ASL piemontesi (soggetti NIS), ma la lista dei *destinatari* dell'email era ferma a un nome (ME.S.I.S.). Il collo di bottiglia dichiarato in `contatti/tools/verifica-bersaglio.md` era «il numero di candidati esaminati». Questa verifica applica la scheda a cinque candidati della mappa, con un solo criterio di primo passaggio: **aprire la pagina "Certificazioni" del sito aziendale e cercare la stringa `27001`**.
+
+**Metodo.** Per ciascun candidato: (1) P.IVA presa **dall'atto**, non dal motore di ricerca (Controllo 5); (2) pagina certificazioni/qualità del sito aziendale letta sul testo, non dedotta; (3) ricerca di qualifica ACN; (4) dimensione.
+
+### F20.a — SINED S.r.l. (P.IVA 01757941206): bersaglio confermato, il più forte finora
+
+**Fatti verificati sul sito aziendale** (<https://www.sined.it/>, <https://www.sined.it/certificazioni/>, letto il 17/11/2026):
+
+- Denominazione **SINED S.r.l.** — *Medical Computer Systems*, Via Ferrarese 219/7, 40128 Bologna; REA BO 357596, C.F. 04226120378, **P.IVA 01757941206** (identica nel footer del sito *e* sull'atto ASL Biella → nessuna omonimia).
+- Certificazioni esposte: **ISO 13485:2016** e **ISO 9001:2015**, più «ACCREDITAMENTO FSE 2.0» (`/certificazioni/`). La Politica per la Qualità rev. 27/01/2026 (<https://www.sined.it/wp-content/uploads/2026/03/Politica-per-la-Qualita-SINED-v20260127.pdf>) conferma: «Gli standard applicati sono l'EN ISO 9001:2015 e l'EN ISO 13485:2016». **Nessuna ISO 27001, nessuna 27017/27018, nessuna ISO 22301, nessuna Information Security Policy pubblicata.**
+- Dimensione: **11–50 dipendenti** (<https://linkedin.com/company/sined-srl>, 53 profili); 300+ centri di nefrologia e dialisi in Italia, Francia e Svizzera (sito). Gruppo **THÉRADIAL** (Francia) dal 2019.
+- Contatti: `info@sined.it` (portale pubblico Unione Terre di Pianura), +39 051 604 88 11 (sito).
+- Contratti NIS provati: **due** atti ASL Biella del 2026 — Det. 642 (Medware Nefrologia e dialisi, € 70.000) e Det. 680 (CCA/OE con Medware per la Dialisi, € 10.000). Vedi F19.a, F19.e.
+
+**Esito: OK su tutti e quattro i punti del criterio.** È il bersaglio con il valore atteso più alto della mappa: due contratti NIS, dimensione che permette un ufficio qualità ma non un CISO, e **assenza totale di SGSI** — la griglia che il Check-up vende non ce l'ha.
+
+**Correzione di attribuzione a F19.e.** La tabella di F19.e attribuisce a ME.TE.DA. la P.IVA **01713290441**. Quella P.IVA è però quella di **METEDA S.r.l.** (vedi F20.c), non di ME.TE.DA.: la P.IVA di ME.TE.DA. va riletta sull'atto prima di un eventuale invio. **ME.TE.DA. resta candidato non verificato**; il punto non è stato risolto in questo screening e va trattato come pendente.
+
+### F20.b — Quattro esclusioni: METEDA, FUJIFILM, AXIOS, LIZARD
+
+Tutte verificate sul sito aziendale il 17/11/2026, tutte **fuori** dalla lista destinatari:
+
+| Impresa | P.IVA | Motivo dell'esclusione | Fonte |
+|---|---|---|---|
+| **METEDA S.r.l.** («un'azienda IQVIA») | 01713290441 | Espone **ISO/IEC 27001:2022** (con linee guida ISO/IEC 27017 e 27018), oltre a ISO 9001, ISO 13485 e UNI/PdR 125. In più è controllata da **IQVIA** (gruppo NYSE): struttura di gruppo, non PMI | <https://www.meteda.it/qualita> |
+| **FUJIFILM Healthcare Italia S.p.A.** | 11025740157 | **ISO/IEC 27001:2022**, certificato **n. 40672** (emissione corrente 27/05/2026, scadenza 10/12/2027), con 27017/27018; PDF pubblico sul sito Fujifilm. >200 dipendenti, € 113 M di ricavi → fuori anche per dimensione | <https://asset.fujifilm.com/www/it/files/2026-06/8f0a03a80e1db1bdea3261c05306f8f8/ISO-IEC_ISO27001_HCIT_260527_Cert_40672.pdf> |
+| **AXIOS Informatica S.r.l.** | 03166670244 | Espone **UNI CEI EN ISO/IEC 27001** (cert. n. 55819 del 24/04/2020, integrato con ISO/IEC 27017-27018) **e UNI EN ISO 22301** (cert. n. 71107), più **qualificazione ACN di livello QC1 e QC2** come fornitore PA. Doppio motivo di esclusione (punto 2) | <https://www.axios.it/certificazioni/> |
+| **LIZARD S.r.l.** | 01867040220 | **Vende cyber security, cloud e managed service**: business unit «Network and Security», «Cyber Security e Data Protection», IT Managed Service, servizi per la PA. Sede Trento, € 4,2 M (2025). **Concorrente**, non cliente (stessa logica dell'esclusione MiPS) | <https://lizardnet.it/en/network>, <https://www.confindustria.tn.it/it/imprese/lizard/> |
+
+**Trappola di omonimia evitata (Controllo 5 applicato due volte).** La ricerca per dominio `lizard.it` restituisce **Publinord S.r.l.** (Bologna, P.I. 03072200375), un'impresa che *non* è LIZARD: il dominio di LIZARD è **`lizardnet.it`**. Analogamente, «SINED» restituisce anche **SINED S.p.A.** di Parma (materiali edili), estranea. In entrambi i casi la P.IVA letta sull'atto ha disambiguato.
+
+### F20.c — METROPOLIS S.r.l.: contraddizione non risolta, candidato «da sciogliere»
+
+METROPOLIS S.r.l. (P.IVA 10368880158, Assago MI), titolare del marchio **Punto Giallo®**, ha un contratto NIS provato (ASL Biella, € 51.000, applicativo «Punti Gialli», F19.a) ed è una micro-impresa (10–15 dipendenti, € 2,76 M).
+
+**Il punto che non torna:** il sito ufficiale <https://www.puntogiallo.it/> espone **ISO 9001:2015** e nulla su 27001; ma un **catalogo espositore 2023** (Assemblea Anci, <https://www.ancicomunicare.it/wp-content/uploads/2024/03/Catalogo-espositori-Assemblea-2023.pdf>) la descrive come operante «secondo le norme **ISO 9001, ISO 27001, ISO 22301**». Il sito ufficiale non conferma; il catalogo sì. Il dominio `metropolissrl.it` non risolve.
+
+**Conclusione: non scrivere finché la contraddizione non è sciolta** (chiedere il certificato 27001, o verificare l'elenco Accredia). Se il catalogo dice il vero, è fuori (punto 2); se è materiale di marketing, è un bersaglio forte (10–15 dipendenti, contratto ASL Biella da € 51.000, solo ISO 9001 esposta).
+
+### F20.d — Il fatto strutturale: la ISO 27001 divide il mercato in due, e la metà che paga è quella sotto
+
+Lo screening ha prodotto **un candidato confermato su cinque esaminati**, ed è la *distribuzione* delle risposte a essere la scoperta:
+
+- **I grandi fornitori del SSN hanno già la ISO 27001.** Dedalus, FUJIFILM Healthcare Italia, METEDA/IQVIA, AXIOS: tutti espongono un SGSI certificato (due dei quattro anche 27017/27018, uno anche 22301 + qualifica ACN QC1/QC2). Non è una coincidenza: la NIS2 ha spinto chi ha un ufficio qualità abbastanza strutturato da vedere arrivare la scadenza a certificarsi **prima**. Per l'offerta sono **fuori mercato**.
+- **I piccoli sotto i 50 dipendenti non l'hanno.** ME.S.I.S. (7 dipendenti, ISO 9001 sola), SINED (11–50, ISO 9001 + 13485 sole), METROPOLIS (10–15, da verificare) sono nella stessa tabella d'appalto dei grandi ma **senza il sistema**: nessun CISO, nessun percorso di certificazione avviato.
+
+**Conseguenza operativa (va nella lista bersagli).** Il criterio di selezione non è il settore né il fatturato: è **«il fornitore ha un contratto con un soggetto NIS *e* non ha un SGSI certificato»**. Il primo termine si legge sull'atto, il secondo sul sito aziendale in due minuti. La conseguenza commerciale è scomoda ma utile: **il mercato non è saturo — è diviso in due dalla soglia dei 50 dipendenti**, e la metà disposta a pagare un referto è quella che non ha un ufficio qualità interno.
+
+**Cautela sull'uso.** Il criterio «ISO 27001 sì/no letta sul sito» è una **euristica**, non una prova: un fornitore può avere un SGSI senza esporlo, o esporre un certificato scaduto. Prima di un invio che poggia sull'assenza, vale la verifica sul certificato o su Accredia. Le P.IVA sono lette sugli atti o sui footer dei siti; i conteggi dipendenti sono dichiarati dalle fonti citate. **Nessuna delle imprese nominate è un cliente**: sono destinatari *possibili* ricavati da atti che le riguardano.
