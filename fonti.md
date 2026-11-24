@@ -447,3 +447,61 @@ Lo screening ha prodotto **un candidato confermato su cinque esaminati**, ed è 
 **Conseguenza operativa (va nella lista bersagli).** Il criterio di selezione non è il settore né il fatturato: è **«il fornitore ha un contratto con un soggetto NIS *e* non ha un SGSI certificato»**. Il primo termine si legge sull'atto, il secondo sul sito aziendale in due minuti. La conseguenza commerciale è scomoda ma utile: **il mercato non è saturo — è diviso in due dalla soglia dei 50 dipendenti**, e la metà disposta a pagare un referto è quella che non ha un ufficio qualità interno.
 
 **Cautela sull'uso.** Il criterio «ISO 27001 sì/no letta sul sito» è una **euristica**, non una prova: un fornitore può avere un SGSI senza esporlo, o esporre un certificato scaduto. Prima di un invio che poggia sull'assenza, vale la verifica sul certificato o su Accredia. Le P.IVA sono lette sugli atti o sui footer dei siti; i conteggi dipendenti sono dichiarati dalle fonti citate. **Nessuna delle imprese nominate è un cliente**: sono destinatari *possibili* ricavati da atti che le riguardano.
+
+---
+
+## F21 — Due adottanti indipendenti, e una data che non è "al rinnovo": la Checklist va trasmessa entro un mese dalla stipula [PRIMARIA, 24 novembre 2026]
+
+**Perché è nuovo rispetto a F18.** F18 documentava *una* clausola (ASL V.C.O.), in una sola stazione appaltante. F21 fa due cose che F18 non faceva: (1) trova un **secondo adottante indipendente** (il Consortium GARR) che impone la stessa famiglia di obblighi con formule *ancora più stringenti*, e (2) legge sul contratto ASL V.C.O. **una data hard** che sposta il momento in cui il fornitore è tenuto a produrre documenti: non il rinnovo, ma **un mese dalla stipula**.
+### F21.a — ASL V.C.O.: la Checklist di Conformità NIS2 va trasmessa **entro un mese dalla stipula**, e vale come dichiarazione sostitutiva [PRIMARIA]
+
+**Fonte primaria (due documenti dello stesso fascicolo, letti oggi):**
+- *Allegato B — Contratto di appalto per servizi di assistenza e manutenzione informatica su software*, A.S.L. V.C.O. (art. 8, "Verifiche di conformità"): <https://www.aslvco.it/wp-content/uploads/2026/08/ALL_B_Contratto-assistenza-e-manutenzione-informatica_ultima-versione-4.pdf> — PDF pubblico, letto il 24 novembre 2026.
+- *Allegato C — Clausole di gestione della compliance NIS2* (5 pagine, 12 sezioni numerate): <https://www.aslvco.it/wp-content/uploads/2026/08/All.-C-Clausole-di-gestione-della-compliance-NIS2.pdf>
+- Determina di rettifica n. 1132 del 26/08/2026 (richiama la Det. 1042 del 07/08.2026, "Procedure negoziate senza bando … gestione e assistenza applicativa e sistemica su software aziendali"): <https://www.aslvco.it/wp-content/uploads/2026/08/CAM-RETTIFICA-AUT-A-CONTRARRE-1042-1132.pdf>
+
+**Il fatto nuovo — la data.** L'art. 8 dell'Allegato B pone, tra le verifiche di conformità dell'appaltatore, il controllo che **«entro un mese dalla stipula»** l'appaltatore abbia trasmesso all'Azienda, **compilato**, l'**Allegato D — "Checklist di Conformità ICT & Cybersecurity"**, con tutte le informazioni richieste e con risposte «**idonee a formulare un giudizio di compliance NIS2**».
+
+**Perché è più forte di «al rinnovo».** F18 diceva al fornitore: la clausola ti riguarda, ma si attiva al prossimo rinnovo. F21 dice: **sei già dentro**, e hai una scadenza di **30 giorni dalla firma** per consegnare un documento compilato e firmato. L'art. 1 dell'Allegato C aggiunge la qualificazione giuridica del documento: le dichiarazioni rese nella Checklist **«hanno valore di dichiarazione sostitutiva di certificazione ai sensi del D.P.R. 445/2000 e costituiscono parte integrante dell'offerta»**. Cioè: non è un questionario informativo — è una dichiarazione **con responsabilità penale per falsità** (art. 76 D.P.R. 445/2000). Nessun fornitore tecnico firma quella checklist senza prima sapere cosa dichiara.
+
+**Il resto dell'Allegato C (conferma e rafforza F18).** Le 12 sezioni confermano i termini già noti (patch critiche 7 gg lav., notifica incidente 24 ore, rapporto intermedio 72 ore, piano di remediation 10 gg lav.) e aggiungono:
+- **§1.1** — divieto di subfornitori che non garantiscano standard equivalenti; obbligo di **ribaltare a valle** clausole «almeno equivalenti».
+- **§2.3** — **audit annuali programmati obbligatori** + audit straordinari in caso di incidente.
+- **§9** — il fornitore deve tenere pronta la **certificazione ISO 27001 (se detenuta)**, esiti di VA/PT **non oltre 12 mesi**, log e **piano di remediation con stato di avanzamento**.
+- **§10.2** — penali, sospensione del contratto e **risoluzione per inadempimento grave ex art. 1456 c.c.** al primo inadempimento, anche di una sola clausola.
+- **§12** — la forza maggiore **non sospende** gli obblighi di sicurezza.
+
+### F21.b — Un secondo adottante indipendente: il Consortium GARR, e la ISO 27001 come *requisito di idoneità* [PRIMARIA]
+
+**Fonte primaria:** GARR — *Gara 2604, Allegato 4 al Contratto: «ALLEGATO NIS2: REQUISITI DI SICUREZZA E ADEMPIMENTI PER LA SUPPLY CHAIN»*, 3 pagine, 11 articoli: <https://www.garr.it/it/chi-siamo1/documenti/bandi-di-gara/bandi-di-gara-2026/bando-2604-web/8017-gara-2604-allegato-4-2604-nis2-requisiti-di-sicurezza-e-adempimenti-per-la-supply-chain/file> — letto il 24 novembre 2026. Documento gemello per la Gara 2603, *Allegato 4*, firmato 14/09/2026: <https://www.garr.it/it/chi-siamo/documenti/bandi-di-gara/bandi-di-gara-2026/bando-2603/7971-gara-2603-allegato-4-nis2-requisiti-di-sicurezza-e-adempimenti-per-la-supply-chain-signed/file>
+
+**Perché conta.** Non è una ASL: è il **consorzio che gestisce la rete nazionale dell'istruzione e della ricerca** — un soggetto NIS diverso, con un modello di clausole **scritto in proprio** e più severo di quello di ASL V.C.O. Tre elementi che F18 non aveva:
+
+1. **Il rispetto è «obbligazione essenziale» con risoluzione immediata.** Art. 1: «Il rispetto di ciascuna clausola … costituisce obbligazione essenziale. Il mancato adempimento o la violazione anche parziale di una sola delle misure … darà facoltà al Consortium GARR di risolvere il contratto per giusta causa e con effetto immediato».
+2. **La ISO/IEC 27001 è condizione di affidabilità del fornitore, non "ove applicabile".** Art. 3: «Il Fornitore si sottopone a verifica dell'affidabilità mediante analisi dei bilanci, rating finanziario … e **possesso delle certificazioni ISO/IEC 27001 e ISO 9001**». Dove ASL V.C.O. scriveva «ove applicabile», GARR scrive «possesso». È il punto che rende la ISO 27001 non un ornamento ma una **soglia di ammissione** a questo canale.
+3. **Reperibilità 24/7/365 con potere di blocco.** Art. 2: il fornitore deve nominare un *Referente Sicurezza* «reperibile in regime di reperibilità 24/7/365 … con l'autorità decisionale per ordinare blocchi, isolamenti di rete o sospensioni d'urgenza dei servizi».
+4. **Cifratura in transito e a riposo con chiavi segregate** (art. 6), **flow-down del 100% dei requisiti** ai subfornitori con obbligo di esibirne copia (art. 10), **attestazione di distruzione dei dati entro 15 gg** dalla chiusura (art. 9), e conformità al **Cyber Resilience Act** (Reg. UE 2024/2847, art. 11).
+
+**Il fatto strutturale che ne esce.** ASL V.C.O. e GARR sono due committenti indipendenti, di settori diversi, che hanno scritto **lo stesso tipo di allegato** con gli stessi numeri (24 ore, 7 giorni, MFA, SBOM, audit annuali). Non è un modello nazionale — ACN non impone quel testo — ma è la **prassi che si sta standardizzando dal lato committente**: chi fornisce un soggetto NIS pubblico si trova davanti una checklist da compilare e firmare, non una clausola da negoziare.
+
+**Cautela sull'uso (invariata da F18).** Sono atti di due singole stazioni appaltanti, non norme. La formulazione da usare resta: «ecco cosa contengono le clausole che questi enti hanno già allegato ai loro contratti», mai «tutti i vostri clienti vi chiederanno questo».
+
+### F21.c — La conseguenza sul prodotto: il Check-up diventa anche il *modo di compilare* la Checklist del cliente
+
+Finora il referto del Check-up era un documento autonomo. F21 aggiunge un secondo uso, verificabile sull'atto: **la Checklist di Conformità ICT & Cybersecurity (Allegato D) chiede informazioni che sono esattamente le aree su cui il Check-up produce una risposta scritta** — analisi del rischio, gestione degli accessi e MFA (§2 GARR, §OBBLIGHI ASL VCO), patch e vulnerabilità (§4), continuità e backup, notifica degli incidenti (§3), formazione (§6), subfornitori (§1). Chi ha già il referto **compila la Checklist con dati verificati** invece di dichiarare «sì» a voci che non sa giudicare — e lo fa sotto responsabilità di dichiarazione sostitutiva.
+
+**Nuovo argomento di vendita, con la sua data.** Non «la NIS2 ti riguarda al rinnovo» (rimandabile) ma «il tuo committente ti ha dato **30 giorni dalla firma** per depositare una Checklist firmata con valore di dichiarazione sostitutiva; le risposte le hai o non le hai». Il secondo messaggio si firma, il primo si archivia.
+
+### F21.d — METROPOLIS S.r.l.: la contraddizione si scioglie per via di forza — solo ISO 9001, il catalogo 2023 non è una prova [verifica, 24 novembre 2026]
+
+Ripresa la contraddizione di F20.c. Verifiche fatte oggi:
+
+- Il sito ufficiale (puntogiallo.it, home e pagina contatti, lette il 24/11/2026) espone **«ISO 9001:2015»** come unica certificazione, in home e nel footer. Nessuna stringa "27001", nessuna "22301" sulle pagine pubbliche.
+- La pagina *Chi Siamo* dichiara i numeri commerciali (280 M€ transati/anno, 250+ clienti, 99% uptime) ma **non** cita alcun sistema di gestione della sicurezza.
+- La fonte che affermava ISO 27001 + ISO 22301 era un **catalogo espositori di un evento del 2023** — materiale promozionale di terzi, non un certificato, e **più vecchio** del sito attuale. Non è una prova dell'esistenza della certificazione.
+
+**Regola applicata (Controllo 5, da F20):** una certificazione si considera esposta solo se compare sul **sito aziendale** o su un **registro di certificazione**. Un catalogo fieristico di tre anni prima non soddisfa la soglia. Esito: **trattare METROPOLIS come un fornitore senza SGSI esposto**, cioè bersaglio *possibile* (10 dipendenti, contratto ASL Biella € 51.000, «Punti Gialli»).
+
+**Cautela residua (dichiarata, non nascosta).** Resta il rischio opposto: METROPOLIS *potrebbe* avere un SGSI non esposto sul sito. Prima di un invio che poggia sull'assenza, la verifica definitiva è la ricerca del certificato nel registro Accredia o una richiesta diretta. **Non cancellare questo dubbio dal documento**: chi scrive a METROPOLIS afferma implicitamente che non ha la 27001, e deve poterlo sostenere. **Stato: bersaglio possibile, terzo in ordine, con verifica Accredia da fare prima dell'invio.**
+
+**Nota di rigore sull'onere della prova.** F20.c diceva "non scrivere finché la contraddizione non è sciolta". La contraddizione *è* sciolta nel senso che conta: **la fonte che affermava la 27001 non è qualificata** (catalogo promozionale, non registro). Non è sciolta nel senso che non abbiamo ancora la prova *positiva* dell'assenza. Le due cose vanno tenute distinte: la prima basta per mettere METROPOLIS in lista, la seconda serve prima di premere invio.

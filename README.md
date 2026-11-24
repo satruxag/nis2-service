@@ -1,8 +1,11 @@
 # nis2-service
 
-Materiale commerciale per un servizio di **Check-up NIS2** a prezzo fisso, rivolto a imprese italiane medie che ricadono (o potrebbero ricadere) nel D.Lgs. 138/2024.
+Materiale commerciale per **due servizi** a prezzo fisso sul D.Lgs. 138/2024:
 
-Il prodotto è **una diagnosi**, non un adeguamento: dice se l'organizzazione è soggetto NIS e come (essenziale o importante), quali misure di base le mancano, e in che ordine intervenire.
+1. **Check-up NIS2** (1.490 EUR) — una diagnosi: dice se l'organizzazione è soggetto NIS e come, quali misure di base le mancano, e in che ordine intervenire. Prodotto di ingresso per chi non ha ancora una richiesta in mano.
+2. **Risposta alla Checklist di conformità NIS2** (1.900 EUR) — un documento depositabile: compila e sostiene la Checklist che un committente soggetto NIS ha allegato al contratto, **con scadenza** (nel caso documentato, entro un mese dalla stipula) e valore di dichiarazione sostitutiva. Vende urgenza, non diagnosi. Vedi `prodotto/checklist-cliente-risposta.md` e ADR 0007.
+
+Il secondo è la novità del **24 novembre 2026**: nasce da due fonti primarie (ASL V.C.O. e Consortium GARR) che mostrano come la clausola NIS2 sia già diventata, dal lato committente, un **modulo da firmare con una data**. Vedi `fonti.md` F21.
 
 ## Documenti
 
@@ -15,6 +18,8 @@ Il prodotto è **una diagnosi**, non un adeguamento: dice se l'organizzazione è
 | `perdita-di-trattativa.md` | **Perché il materiale pronto non basta.** La domanda che blocca la firma, le trappole in ordine di frequenza, e l'ordine dei destinatari (il fornitore viene prima). |
 | `dopo-il-checkup.md` | **La risposta alla domanda che blocca la firma:** cosa costa l'adeguamento, e cosa potete fare a costo zero. Da consegnare dopo il referto, non al posto del referto. |
 | `mercato-prezzi.md` | Riferimenti di prezzo di mercato e lettura della saturazione del mercato. |
+| `prodotto/checklist-cliente-risposta.md` | **Secondo prodotto: risposta alla Checklist di conformità del committente.** Cos'è, cosa consegna, prezzo (1.900 EUR), e come si trova il destinatario. Nasce da F21. |
+| `contatti/email-invio/checklist-allegato-d-email-pronta.md` | **Email pronta** per il nuovo prodotto (fornitore con una Checklist NIS2 da compilare). *Da inviare solo dal titolare umano.* |
 | `contatti/lista-bersagli.md` | **La lista dei destinatari, ristretta e verificata.** Criterio di conferma a quattro punti (serve un cliente NIS; **non** già qualificato ACN/ISO 27001; PMI; leva = cliente NIS). Documenta anche i bersagli scartati dopo la verifica. |
 | `contatti/tools/verifica-bersaglio.md` | **La scheda di verifica compilabile** per ogni candidato, con le schede reali di MiPS, 3MSOLUTIONS, EL.CO. e MYS. Rende il criterio ripetibile e la decisione ricostruibile. |
 | `contatti/README.md` | Il metodo per costruire le righe successive della lista. **Addendum del 27 ottobre**: il segnale qualificante è cambiato — si parte dagli allegati contrattuali NIS2 pubblicati dalle stazioni appaltanti (vedi F18). |

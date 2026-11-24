@@ -25,6 +25,12 @@ Atto con cui l'ACN, su proposta dell'Autorità di settore, include nell'ambito N
 ## Clausola NIS2 contrattuale
 Obbligo di sicurezza che un soggetto NIS impone a un proprio fornitore **nel contratto**, non per atto dell'ACN. Nasce dall'adempimento della sicurezza della catena di approvvigionamento (art. 24, c. 3, D.Lgs. 138/2024; categoria GV.SC delle specifiche di base) e si materializza come allegato tecnico al contratto o al bando, con obblighi numerati e termini espressi in giorni o ore. Meccanismo **distinto** dall'elencazione dei fornitori rilevanti e dall'individuazione ex art. 3, c. 13: qui la qualifica non arriva dall'ACN ma dal rapporto contrattuale, e l'obbligo è verso il cliente, non verso l'Autorità. Un fornitore può essere tenuto alle clausole pur non essendo né soggetto NIS né fornitore rilevante.
 
+## Checklist di conformità del committente
+Modulo (es. «Allegato D — Checklist di Conformità ICT & Cybersecurity») che un committente soggetto NIS allega al contratto di fornitura e che il fornitore deve **compilare, sottoscrivere e trasmettere entro un termine espresso dal contratto** (nel caso documentato: entro un mese dalla stipula). Le dichiarazioni valgono come **dichiarazione sostitutiva di certificazione (D.P.R. 445/2000)**: la falsità è penalmente rilevante. È il documento in cui la clausola NIS2 smette di essere un principio e diventa una scadenza con firma. Distinto da:
+
+## Risposta alla Checklist di conformità
+Secondo prodotto di questo repo, distinto dal Check-up NIS2: affiancamento per compilare e sostenere la Checklist del committente. Consegna il modulo compilato, un registro delle evidenze per ogni voce sostenibile, l'elenco delle voci **non dichiarabili** e un piano di chiusura. Vende **urgenza** (scadenza contrattuale), non diagnosi. Il Check-up resta il prodotto di ingresso per chi non ha ancora una checklist in mano.
+
 ## Check-up NIS2
 Il prodotto di questo repo: una valutazione a prezzo fisso e a scope chiuso che risponde alla domanda "siamo soggetti NIS, e cosa ci manca?". È un prodotto di *diagnosi*, non di remediation.
 
